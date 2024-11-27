@@ -57,11 +57,11 @@
                 Oleh karena itu kami hadir untuk menjembatani skill gap di era digitalisasi sekarang,<br><br>
                 Sejak 2019, Luar Sekolah menjadi salah satu platform edukasi terpercaya untuk pengembangan diri 
                 berbasis online yang dapat diakses kapan saja dan dimana saja untuk mendampingi generasi muda 
-                Indonesia <span class="highlight2">#SampaiJadiBisa</span>.<br><br> Saat ini, lebih dari 250.000 
-                pengguna telah belajar dan menjadi bagian dari komunitas Luar Sekolah. Dengan dukungan puluhan 
-                trainer profesional yang telah bergabung sebagai mentor, kami terus berkomitmen untuk memberikan 
+                Indonesia <span class="highlight2">#SampaiJadiBisa</span>.<br><br> Saat ini, lebih dari <span class="highlight2">250.000 
+                pengguna</span> telah belajar dan menjadi bagian dari komunitas Luar Sekolah. Dengan dukungan <span class="highlight2">puluhan 
+                trainer profesional</span> yang telah bergabung sebagai mentor, kami terus berkomitmen untuk memberikan 
                 pendidikan berkualitas yang relevan dengan kebutuhan dunia kerja.<br><br>
-                Kini giliranmu! Mari akhiri gap edukasi dan persiapkan dirimu u dirimu siap bersaing di dunia profesional bersama Luarsekolah.
+                Kini giliranmu! Mari akhiri gap edukasi dan persiapkan dirimu untuk siap bersaing di dunia profesional bersama Luarsekolah.
                 </p>
                 <video class="video" width="680" height="480" controls> 
                     <source src="video.mp4" type="video/mp4"> 
