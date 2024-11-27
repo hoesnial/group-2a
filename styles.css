@@ -105,15 +105,21 @@ body {
 .search-button {
   position: absolute;
   top: 50%;
-  right: 10px;
+  right: 3px;
   transform: translateY(-50%);
-  background-color: transparent;
   border: none;
-  font-size: 16px;
-  cursor: pointer;
-  color: #333; /* Warna ikon pencarian */
+  /*Membuattombolbulat*/
+  padding: 10px;
+  /*Memberikanpaddinguntuktombol*/
+  color: rgb(0, 0, 0);
+  /*Warnaikon*/
+  font-size: 12px;
+  /*Ukuranikon*/
 }
 
+.search-button:hover {
+  background-color: #00b372; /* Warna saat hover */
+}
 /* Authentication Buttons */
 .auth-buttons {
   margin-right: 20px;
@@ -186,6 +192,37 @@ body {
 .dropdown-menu a.logout-link:hover {
   background-color: darkred; /* Ubah warna latar belakang saat di-hover */
   color: white; /* Ubah warna teks saat di-hover */ /* Opsional: Mengubah warna menjadi merah lebih gelap saat di-hover */
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: flex-start; /* Align items to the start */
+  }
+
+  .menu {
+    margin-left: 0; /* Reset margin for mobile */
+  }
+
+  .search-bar {
+    width: 100%; /* Full width on mobile */
+    margin: 10px 0; /* Add margin for spacing */
+  }
+
+  .auth-buttons {
+    margin-top: 10px; /* Add margin for mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .search-input {
+    padding: 8px; /* Smaller padding on small screens */
+  }
+
+  .search-button {
+    padding: 8px; /* Smaller padding on small screens */
+    font-size: 14px; /* Adjust font size */
+  }
 }
 
 /*section 1 */

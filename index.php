@@ -24,8 +24,9 @@
         <div class="search-bar">
             <form class="search-form">
                 <input type="text" class="search-input" placeholder="Cari kelas yang ingin kamu pelajari">
-                <button type="submit" class="search-button">🔍</button>
-            </form>
+                <button type="submit" class="search-button">
+    <i class="fas fa-search"></i>
+</button>            </form>
         </div>
         <div class="auth-buttons">
             <div class="dropdown">
