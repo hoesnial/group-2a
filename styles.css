@@ -187,3 +187,49 @@ body {
   background-color: darkred; /* Ubah warna latar belakang saat di-hover */
   color: white; /* Ubah warna teks saat di-hover */ /* Opsional: Mengubah warna menjadi merah lebih gelap saat di-hover */
 }
+
+/*section 1 */
+
+.container {
+  max-width: 1500px;
+  padding: 20px;
+}
+.header {
+  max-width: 700px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.header h1 {
+  font-size: 40px;
+  color: #333;
+}
+.highlight {
+  background-color: #a8e6cf;
+  padding: 2px 5px;
+}
+.highlight2 {
+  font-weight: bold;
+}
+.bold {
+  font-size: 25px;
+  font-style: italic;
+}
+.content {
+  text-align: right;
+  margin-top: 200px;
+}
+.content img {
+  max-width: 100%;
+  margin-left: 100px;
+}
+.description {
+  max-width: 500px;
+  text-align: left;
+  font-size: 13px;
+  color: #666;
+}
+
+.description video {
+  position: relative; 
+  transform: translate(570px, -495px);
+}

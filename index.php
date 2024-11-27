@@ -41,5 +41,32 @@
             </div>
         </div>
     </nav>
+    <div class="container">
+        <div class="header">
+            <h1>Luarsekolah is an educational institution that has been producing digital talents since <span class="highlight">2019</span>.</h1>
+        </div>
+        <div class="content">
+            
+        </div>
+        <div class="description">
+            <p><span class="bold">"Apakah pendidikan hanya <span class="highlight2">terbatas</span> pada sekolah formal?"</span><br><br><br>
+                Kami percaya bahwa <span class="highlight2">pendidikan tidak seharusnya memiliki batas</span>, 
+                terutama ketika faktanya tidak semua orang memiliki akses ke pendidikan formal, dan tantangan 
+                ketenagakerjaan di Indonesia masih belum sepenuhnya terjawab oleh sistem pendidikan tradisional. 
+                Oleh karena itu kami hadir untuk menjembatani skill gap di era digitalisasi sekarang,<br><br>
+                Sejak 2019, Luar Sekolah menjadi salah satu platform edukasi terpercaya untuk pengembangan diri 
+                berbasis online yang dapat diakses kapan saja dan dimana saja untuk mendampingi generasi muda 
+                Indonesia <span class="highlight2">#SampaiJadiBisa</span>.<br><br> Saat ini, lebih dari 250.000 
+                pengguna telah belajar dan menjadi bagian dari komunitas Luar Sekolah. Dengan dukungan puluhan 
+                trainer profesional yang telah bergabung sebagai mentor, kami terus berkomitmen untuk memberikan 
+                pendidikan berkualitas yang relevan dengan kebutuhan dunia kerja.<br><br>
+                Kini giliranmu! Mari akhiri gap edukasi dan persiapkan dirimu u dirimu siap bersaing di dunia profesional bersama Luarsekolah.
+                </p>
+                <video class="video" width="680" height="480" controls> 
+                    <source src="video.mp4" type="video/mp4"> 
+                    <source src="video.ogg" type="video/ogg"> Browser Anda tidak mendukung tag video.
+                </video>
+        </div>
+    </div>
 </body>
 </html>
