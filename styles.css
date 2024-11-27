@@ -1,0 +1,189 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar:hover {
+  background-color: #f6c80d; /* Warna hijau junggel */
+  transition: background-color 0.3s ease; /* Efek transisi warna */
+}
+
+.logo {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  height: 30px;
+  margin-right: 8px;
+}
+
+/* Dropdown Menu */
+.menu {
+  margin-left: 200px;
+  position: relative;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-trigger {
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  z-index: 1000;
+  min-width: 150px;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 10px 15px;
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.dropdown-menu a:hover {
+  background-color: #f0f0f0;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Search Bar */
+.search-bar {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  margin: 0 20px;
+  margin-left: 20px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding-right: 40px; /* Memberi ruang untuk tombol di dalam input */
+}
+
+.search-bar input {
+  width: 95%;
+  max-width: 400px;
+  min-width: 200px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.search-button {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  color: #333; /* Warna ikon pencarian */
+}
+
+/* Authentication Buttons */
+.auth-buttons {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.register-button {
+  padding: 8px 16px;
+  background-color: #00d084;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.register-button:hover {
+  background-color: #00b372;
+}
+
+.login-button {
+  padding: 8px 16px;
+  background-color: #ffffff;
+  color: rgb(15, 10, 10);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #ffffff;
+}
+
+.search-form {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* User Profile */
+.dropdown {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-right: 20px;
+}
+
+.user-photo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; /* Membuat gambar berbentuk lingkaran */
+  object-fit: cover; /* Menjaga proporsi gambar */
+  border: 2px solid #ddd; /* Opsional: menambahkan border */
+}
+
+.dropdown-trigger {
+  font-size: 14px;
+  color: #333; /* Warna teks */
+  font-weight: bold;
+}
+
+.dropdown-menu a.logout-link {
+  color: red; /* Ubah warna teks menjadi merah */
+  border-top: 1px solid #ddd; /* Garis pemisah */
+  margin-top: 5px; /* Memberikan sedikit jarak di atas */
+  padding-top: 10px;
+}
+
+.dropdown-menu a.logout-link:hover {
+  background-color: darkred; /* Ubah warna latar belakang saat di-hover */
+  color: white; /* Ubah warna teks saat di-hover */ /* Opsional: Mengubah warna menjadi merah lebih gelap saat di-hover */
+}
