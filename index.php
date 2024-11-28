@@ -119,5 +119,13 @@
     </div>
 </div>
 
+<footer>
+    <div class="footer-container">
+        <span>PT Teknologi Edukasi Indonesia</span>
+        <span>Copyright ©2022 • All Rights Reserved</span>
+    </div>
+</footer>
+
+
 </body>
 </html>
