@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+.scroll-container {
+  display: flex;
+  overflow-x: hidden;
+  gap: 12px;
+  flex-basis: 70%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Menghapus scrollbar secara eksplisit di semua browser */
+.scroll-container::-webkit-scrollbar {
+  display: none;
+  /* Menyembunyikan scrollbar untuk Chrome, Safari, dan Edge */
+}
+
+/* Menyembunyikan scrollbar pada .scroll-item */
+.scroll-item {
+  display: flex;
+  justify-content: center;
+  flex-shrink: 0;
+  margin: 0;
+}
+
+.scroll-buttons {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  padding-bottom: 20px;
+  padding-right: 20px;
+}
+
+.scroll-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #33d6ad;
+  border: none;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  margin: 0 10px;
+  z-index: 10;
+}
+
+.main-container {
+  background-color: #00cc99;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  /* Mengurangi lebar agar tidak melebihi layar */
+  max-width: 1200px;
+  /* Membatasi lebar maksimum */
+  margin: 80px auto;
+  border-radius: 15px;
+  box-sizing: border-box;
+  /* Memastikan padding dan margin dihitung dalam ukuran elemen */
+}
+
+.card {
+  margin-top: 100px;
+  margin-bottom: 70px;
+  width: 250px;
+  height: 320px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.card-profile {
+  color: rgb(255, 255, 255);
+  display: flex;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.profile-name {
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  color: #111827;
+  font-size: 20px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.profile-occupant {
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  color: #4b5563;
+  font-size: 16px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.profile-desc {
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  color: #111827;
+  font-size: 16px;
+  text-align: center;
+}
+
+.text-container {
+  flex-basis: 35%;
+  padding: 10px;
+  text-align: left;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+}
+
+.text {
+  font-family: "Nunito", sans-serif;
+  margin-right: 20px;
+  margin-top: 10px;
+  color: white;
+}
+
+.text-title {
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  font-size: 28px;
+}
+
+.text-desc {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+}
+
+.cta-button {
+  background-color: #ffffff;
+  color: #111827;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 17px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+}
+
+.cta-button:hover {
+  background-color: #ffffff;
+}
+
+.city-container {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1200px;
+  margin: 80px auto;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+
+.persons-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1200px;
+  margin: 80px auto;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+
+.grid-city {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  padding: 16px;
+}
+
+.grid-item {
+  flex: 1;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-item {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  flex-shrink: 0;
+  margin: 0;
+  color: rgb(255, 255, 255);
+  border-radius: 12px;
+  width: fit-content;
+}
+
+.carousel-person-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* 4 columns of equal width */
+  gap: 16px;
+  /* Spacing between items */
+  padding: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Grid items */
+.carousel-person-item {
+  position: relative;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  width: 240px;
+}
+
+.footer {
+  display: flex;
+  padding: 160px 160px;
+  flex-direction: column;
+}
+
+ul {
+  min-width: max-content;
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+.carousel-banner {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  margin: 16px;
+  padding: 8px;
+  border-radius: 16px;
+  transition: transform 0.3s ease; /* Menambahkan transisi untuk efek yang halus */
+}
+
+/* Tambahkan gaya untuk konten tambahan */
+.extra-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  max-height: 0; /* Konten disembunyikan secara default */
+  overflow: hidden;
+  transition: max-height 0.5s ease; /* Animasi smooth */
+}
+
+.carousel-banner.expanded .extra-content {
+  max-height: 48px; /* Tinggi maksimum saat diperluas */
+}

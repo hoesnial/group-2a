@@ -90,34 +90,6 @@
         max-width: 150px;
         cursor: pointer; 
     }
-
-    .footer-bottom {
-        width: 100%;
-        display: flex;
-        justify-content: space-between; 
-        font-size: 14px;
-        color: #4B5563;
-        margin-top: 20px;
-        padding: 0 20px; 
-    }
-
-    .footer-bottom ul {
-        display: flex;
-        padding: 0;
-        margin: 0;
-    }
-
-    .footer-bottom ul li {
-        list-style: none;
-    }
-
-    .footer-bottom .left {
-        margin-left: 0;
-    }
-
-    .footer-bottom .right {
-        margin-left: 700px;
-    }
 </style>
 
 <footer>
@@ -164,11 +136,9 @@
             </a>
         </div>
 
-        <div class="footer-bottom">
-        <ul>
-            <li class="left">PT Teknologi Edukasi Indonesia.</li>
-            <li class="right">Copyright &copy;2022 All Rights Reserved.</li>
-        </ul>
-    </div>
+        <div style="display: flex; flex-direction: row; justify-content: space-between; width: 100%;">
+            <p style="font-family: Nunito, sans-seriff; font-weight: 500; font-size: 16px; color: #4B5563;">PT Teknologi Edukasi Indonesia</p>
+            <p style="font-family: Nunito, sans-seriff; font-weight: 500; font-size: 16px; color: #4B5563;">Copyright ©2022 • All Rights Reserved</p>
+        </div>
     </div>
 </footer>
