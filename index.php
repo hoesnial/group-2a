@@ -453,7 +453,125 @@ function updateGrid(items) {
             </div>
         </div>
     </div>
+    
+<!-- section 10, 11, 12, 13 -->
+    <section class="faq">
+    <div class="faq-left">
+      <h2>Frequently Asked Questions</h2>
+      <p>Belajar dengan pendekatan praktis dan terarah. Kembangkan portofolio dan siapkan diri untuk sukses dalam karier digital!</p>
+      <button class="btn-primary">Lihat Selengkapnya</button>
+    </div>
+    <div class="faq-right">
+        <div class="faq-item"> 
+            <div class="faq-question">
+              <span class="question-number">01</span>
+              <span class="question-text">Apakah kursus ini cocok untuk pemula?</span>
+              <span class="arrow"></span>
+            </div>
+            <p class="faq-answer">Kursus ini dirancang untuk pemula maupun mereka yang ingin memperdalam kemampuan.</p>
+          </div>
 
+          <div class="faq-item"> 
+            <div class="faq-question">
+              <span class="question-number">02</span>
+              <span class="question-text">Apakah saya mendapatkan sertifikat setelah menyelesaikan kursus?</span>
+              <span class="arrow"></span>
+            </div>
+            <p class="faq-answer">Ya, sertifikat akan diberikan setelah Anda menyelesaikan semua modul pelatihan.</p>
+          </div>
+          
+          <div class="faq-item"> 
+            <div class="faq-question">
+              <span class="question-number">03</span>
+              <span class="question-text">Bagaimana cara mengakses materi kursus?</span>
+              <span class="arrow"></span>
+            </div>
+            <p class="faq-answer">Materi kursus dapat diakses melalui platform belajar kami setelah pendaftaran selesai.</p>
+          </div>
+          
+          <div class="faq-item"> 
+            <div class="faq-question">
+              <span class="question-number">04</span>
+              <span class="question-text">Bisakah saya mendapatkan pengembalian dana jika tidak puas dengan kursus?</span>
+              <span class="arrow"></span>
+            </div>
+            <p class="faq-answer">Kami memiliki kebijakan pengembalian dana dalam 7 hari setelah pendaftaran.</p>
+          </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta">
+    <h2>Yuk, Mulai Perjalananmu Bersama Kami!</h2>
+    <p>Ikatkan dirimu pada pengalaman belajar yang tak terlupakan.</p>
+    <button class="btn-secondary">Gabung Sekarang</button>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <div class="contact-form">
+      <h3>Ayo Terhubung dan Berkolaborasi</h3>
+      <form>
+        <div class="form-row">
+          <input type="text" placeholder="Nama Depan" required>
+          <input type="text" placeholder="Nama Belakang" required>
+        </div>
+        <input type="email" placeholder="Email" required>
+        <div class="form-row">
+          <select>
+            <option>+62</option>
+            <option>+1</option>
+            <option>+44</option>
+          </select>
+          <input type="text" placeholder="Nomor Telepon" required>
+        </div>
+        <textarea placeholder="Bagaimana kami dapat membantu Anda?" rows="4" required></textarea>
+        <button type="submit" class="btn-primary">Kirim</button>
+      </form>
+    </div>
+    <div class="contact-info">
+      <iframe class="map-frame" 
+        src="https://maps.google.com/maps?q=Jakarta&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+        frameborder="0" 
+        width="600" 
+        height="200">
+</iframe>
+<h3 class="ctk">Kantor Kami</h3>
+<p class="alamat">Central Tower, Level 36, Jl. Gatot Subroto No.27, Karet Semanggi, Jakarta Selatan 12930, Indonesia</p>
+<div class="social-icons">
+  <a href="mailto:info@example.com" target="_blank">
+    <img src="images/email.png" alt="Email">
+  </a>
+  <a href="https://www.linkedin.com" target="_blank">
+    <img src="images/linkedin.png" alt="LinkedIn">
+  </a>
+  <a href="https://www.instagram.com" target="_blank">
+    <img src="images/ig.png" alt="Instagram">
+  </a>
+  <a href="https://www.youtube.com" target="_blank">
+    <img src="images/youtube.png" alt="YouTube">
+  </a>
+  <a href="https://wa.me/6281234567890" target="_blank">
+    <img src="images/whatsapp.png" alt="WhatsApp">
+  </a>
+</div>
+  </section>
+
+  <!-- Footer Section -->
+  <section class="custom-section">
+    <div class="section-content">
+      <div class="section-text">
+        <h3 class="section-h3">Mari Membangun Sesuatu yang Hebat Bersama!</h3>
+        <p>Punya ide atau proposal untuk kolaborasi? Kami ingin sekali
+          mendengarnya dari Anda. Bagikan pemikiran Anda dan mari kita wujudkan!</p>
+        <button class="btn-section">Ajukan Penawaran</button>
+      </div>
+      <div class="section-image">
+        <img src="images/inspirational.jpg" alt="Inspirational Image">
+      </div>
+    </div>
+  </section>
+  
+  <script src="faq.js"></script>
 
 <?php include('footer.php'); ?>
 
