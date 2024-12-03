@@ -11,6 +11,147 @@
 
 <?php include('navbar.php'); ?>
 
+<!-- section 1 -->
+<div class="container1">
+        <div class="title">Tentang Kami</div>
+        <div class="main-text">Luarsekolah untuk Masa Depan yang Lebih Baik</div>
+        <div class="description">
+            Platform edukasi vokasi dan pengembangan diri berbasis online yang mendampingi generasi muda Indonesia untuk terus berkembang #sampaijadibisa
+        </div>
+    </div>
+    <div class="profile-card"> 
+        <img src="https://i.pinimg.com/originals/d2/91/0f/d2910fd5794ef00f0cb242a54cd04808.jpg" alt="Farah Nurul"> 
+        <h2>Rina Oktaviani</h2> 
+        <p>Chief Operating Officer</p> 
+    </div>
+    <div class="profile-card"> 
+        <img src="https://th.bing.com/th/id/OIP.A1CwO5Q3kquQPVeE9y4WWgHaJ9?rs=1&pid=ImgDetMain" alt="Farah Nurul"> 
+        <h2>Farah Nurul</h2> 
+        <p>Content Lead</p> 
+    </div>
+    <div class="profile-card"> 
+        <img src="https://th.bing.com/th/id/OIP.A1CwO5Q3kquQPVeE9y4WWgHaJ9?rs=1&pid=ImgDetMain" alt="Farah Nurul"> 
+        <h2>Farah Nurul</h2> 
+        <p>Content Lead</p> 
+    </div>
+    <div class="profile-card"> 
+        <img src="https://th.bing.com/th/id/OIP.A1CwO5Q3kquQPVeE9y4WWgHaJ9?rs=1&pid=ImgDetMain" alt="Farah Nurul"> 
+        <h2>Farah Nurul</h2> 
+        <p>Content Lead</p> 
+    </div>
+    <div class="profile-card"> 
+        <img src="https://th.bing.com/th/id/OIP.A1CwO5Q3kquQPVeE9y4WWgHaJ9?rs=1&pid=ImgDetMain" alt="Farah Nurul"> 
+        <h2>Farah Nurul</h2> 
+        <p>Content Lead</p> 
+    </div>
+
+    <!-- section 2 -->
+    <section class="toggle-section">
+        <div class="image-container">
+            <img id="image" src="https://img.freepik.com/premium-photo/man-having-headache-while-using-laptop_13339-297315.jpg" alt="Masalah">
+        </div>
+        <div class="content-container">
+            <h2>Apa Tantangan yang Kita Hadapi?</h2>
+            <div class="toggle-switch">
+                <button id="problemBtn" class="active">Masalah</button>
+                <button id="solutionBtn">Solusi</button>
+            </div>
+            <p id="description">
+                Pendidikan formal sering kali nggak cukup buat mempersiapkan kita ke dunia kerja. Banyak yang merasa:
+            </p>
+            <div id="content-grid" class="grid">
+                <!-- Konten "Masalah" -->
+                <div class="card">Skill dipelajari di Kampus Tidak Sesuai Dunia Kerja</div>
+                <div class="card">Bingung Harus Mulai dari Mana Setelah Lulus</div>
+                <div class="card">Salah Jurusan & Kesulitan Mengembangkan Diri</div>
+                <div class="card">Biaya Belajar yang Tinggi</div>
+            </div>
+        </div>
+    </section>
+    <script>
+        // Ambil elemen yang dibutuhkan
+const problemBtn = document.getElementById("problemBtn");
+const solutionBtn = document.getElementById("solutionBtn");
+const description = document.getElementById("description");
+const contentGrid = document.getElementById("content-grid");
+const image = document.getElementById("image");
+
+// Konten untuk "Masalah" dan "Solusi"
+const problemContent = [
+    "Skill dipelajari di Kampus Tidak Sesuai Dunia Kerja",
+    "Bingung Harus Mulai dari Mana Setelah Lulus",
+    "Salah Jurusan & Kesulitan Mengembangkan Diri",
+    "Biaya Belajar yang Tinggi",
+];
+
+const solutionContent = [
+    "Kelas Praktis dan Sesuai Kebutuhan Industri",
+    "Panduan Karier dari Mentor Ahli",
+    "Belajar Skill Sesuai Minatmu",
+    "Harga Terjangkau dengan Kualitas Terjaga",
+];
+
+// Event listener untuk tombol "Masalah"
+problemBtn.addEventListener("click", () => {
+    problemBtn.classList.add("active");
+    solutionBtn.classList.remove("active");
+
+    // Ubah deskripsi dan konten
+    description.textContent =
+        "Pendidikan formal sering kali nggak cukup buat mempersiapkan kita ke dunia kerja. Banyak yang merasa:";
+    image.src = "problem-image.jpg";
+    updateGrid(problemContent);
+});
+
+// Event listener untuk tombol "Solusi"
+solutionBtn.addEventListener("click", () => {
+    solutionBtn.classList.add("active");
+    problemBtn.classList.remove("active");
+
+    // Ubah deskripsi dan konten
+    description.textContent =
+        "Kami hadir untuk memberikan solusi nyata yang mudah diakses semua orang:";
+    image.src = "solution-image.jpg";
+    updateGrid(solutionContent);
+});
+
+// Fungsi untuk memperbarui grid
+function updateGrid(items) {
+    contentGrid.innerHTML = ""; // Kosongkan grid
+    items.forEach((item) => {
+        const card = document.createElement("div");
+        card.className = "card";
+        card.textContent = item;
+        contentGrid.appendChild(card);
+    });
+}
+</script>
+
+<!-- section 3 -->
+<section class="about-section">
+        <div class="content">
+            <h2>Cerita di Balik Luarsekolah</h2>
+            <p>
+                Di Luarsekolah, kami menyediakan mentor ahli dan program belajar yang fleksibel sejak 2019,
+                membantu lebih dari 250.000 user berkembang kapan pun dan di mana pun.
+            </p>
+            <div class="stats">
+                <div>
+                    <h3>2019</h3>
+                    <p>Didirikan</p>
+                </div>
+                <div>
+                    <h3>250.000+</h3>
+                    <p>Pengguna</p>
+                </div>
+            </div>
+        </div>
+        <div class="images">
+            <img src="https://tips4teamwork.com/wp-content/uploads/2020/04/office-teamwork.jpg" alt="Tim bekerja sama" class="image1">
+            <img src="https://i1.wp.com/hr-gazette.com/wp-content/uploads/2018/10/bigstock-196164373.jpg?resize=1024%2C594&ssl=1" alt="Kolaborasi tim" class="image2">
+        </div>
+    </section>
+
 <div class="city-container">
         <div class="" style="font-family: Nunito, sans-seriff; font-weight: bold; font-size: 36px; color: #00CC99; width: 100%; text-align: center;">Dampak Nyata, Mewujudkan Perubahan</div>
         <div class="grid-city">
