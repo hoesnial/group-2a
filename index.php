@@ -19,32 +19,177 @@
             Platform edukasi vokasi dan pengembangan diri berbasis online yang mendampingi generasi muda Indonesia untuk terus berkembang #sampaijadibisa
         </div>
     </div>
-    <div class="profile-card"> 
-        <img src="https://i.pinimg.com/originals/d2/91/0f/d2910fd5794ef00f0cb242a54cd04808.jpg" alt="Farah Nurul"> 
-        <h2>Rina Oktaviani</h2> 
-        <p>Chief Operating Officer</p> 
+    <div class="scroll-container">
+    <div class="carousel-item2">
+                    <img src="state3.png" alt="Deskripsi Gambar" class="card-image" style="width: 240px;">
+                    <div class="carousel-banner" onclick="toggleExpand(this)">
+                        <h1 class="profile-name">Rian Mahendra</h1>
+                        <span class="profile-occupant">Web Development</span>
+                        <span class="profile-desc">Software Engineer di TechInno</span>
+                        <div class="extra-content">
+                        <img style="width: 18px; margin: 0px 8px;" src="images/linkedin.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/twitter.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/ig.png" alt="">
+                            <img style="width: 14px; height: 14px; margin: 0px 8px;" src="images/youtube.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item2">
+                    <img src="state3.png" alt="Deskripsi Gambar" class="card-image" style="width: 240px;">
+                    <div class="carousel-banner" onclick="toggleExpand(this)">
+                        <h1 class="profile-name">Rian Mahendra</h1>
+                        <span class="profile-occupant">Web Development</span>
+                        <span class="profile-desc">Software Engineer di TechInno</span>
+                        <div class="extra-content">
+                        <img style="width: 18px; margin: 0px 8px;" src="images/linkedin.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/twitter.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/ig.png" alt="">
+                            <img style="width: 14px; height: 14px; margin: 0px 8px;" src="images/youtube.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item2">
+                    <img src="state3.png" alt="Deskripsi Gambar" class="card-image" style="width: 240px;">
+                    <div class="carousel-banner" onclick="toggleExpand(this)">
+                        <h1 class="profile-name">Rian Mahendra</h1>
+                        <span class="profile-occupant">Web Development</span>
+                        <span class="profile-desc">Software Engineer di TechInno</span>
+                        <div class="extra-content">
+                        <img style="width: 18px; margin: 0px 8px;" src="images/linkedin.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/twitter.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/ig.png" alt="">
+                            <img style="width: 14px; height: 14px; margin: 0px 8px;" src="images/youtube.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item2">
+                    <img src="state3.png" alt="Deskripsi Gambar" class="card-image" style="width: 240px;">
+                    <div class="carousel-banner" onclick="toggleExpand(this)">
+                        <h1 class="profile-name">Rian Mahendra</h1>
+                        <span class="profile-occupant">Web Development</span>
+                        <span class="profile-desc">Software Engineer di TechInno</span>
+                        <div class="extra-content">
+                        <img style="width: 18px; margin: 0px 8px;" src="images/linkedin.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/twitter.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/ig.png" alt="">
+                            <img style="width: 14px; height: 14px; margin: 0px 8px;" src="images/youtube.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item2">
+                    <img src="state3.png" alt="Deskripsi Gambar" class="card-image" style="width: 240px;">
+                    <div class="carousel-banner" onclick="toggleExpand(this)">
+                        <h1 class="profile-name">Rian Mahendra</h1>
+                        <span class="profile-occupant">Web Development</span>
+                        <span class="profile-desc">Software Engineer di TechInno</span>
+                        <div class="extra-content">
+                        <img style="width: 18px; margin: 0px 8px;" src="images/linkedin.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/twitter.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/ig.png" alt="">
+                            <img style="width: 14px; height: 14px; margin: 0px 8px;" src="images/youtube.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item2">
+                    <img src="state3.png" alt="Deskripsi Gambar" class="card-image" style="width: 240px;">
+                    <div class="carousel-banner" onclick="toggleExpand(this)">
+                        <h1 class="profile-name">Rian Mahendra</h1>
+                        <span class="profile-occupant">Web Development</span>
+                        <span class="profile-desc">Software Engineer di TechInno</span>
+                        <div class="extra-content">
+                        <img style="width: 18px; margin: 0px 8px;" src="images/linkedin.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/twitter.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/ig.png" alt="">
+                            <img style="width: 14px; height: 14px; margin: 0px 8px;" src="images/youtube.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item2">
+                    <img src="state3.png" alt="Deskripsi Gambar" class="card-image" style="width: 240px;">
+                    <div class="carousel-banner" onclick="toggleExpand(this)">
+                        <h1 class="profile-name">Rian Mahendra</h1>
+                        <span class="profile-occupant">Web Development</span>
+                        <span class="profile-desc">Software Engineer di TechInno</span>
+                        <div class="extra-content">
+                        <img style="width: 18px; margin: 0px 8px;" src="images/linkedin.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/twitter.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/ig.png" alt="">
+                            <img style="width: 14px; height: 14px; margin: 0px 8px;" src="images/youtube.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item2">
+                    <img src="state3.png" alt="Deskripsi Gambar" class="card-image" style="width: 240px;">
+                    <div class="carousel-banner" onclick="toggleExpand(this)">
+                        <h1 class="profile-name">Rian Mahendra</h1>
+                        <span class="profile-occupant">Web Development</span>
+                        <span class="profile-desc">Software Engineer di TechInno</span>
+                        <div class="extra-content">
+                        <img style="width: 18px; margin: 0px 8px;" src="images/linkedin.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/twitter.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/ig.png" alt="">
+                            <img style="width: 14px; height: 14px; margin: 0px 8px;" src="images/youtube.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item2">
+                    <img src="state3.png" alt="Deskripsi Gambar" class="card-image" style="width: 240px;">
+                    <div class="carousel-banner" onclick="toggleExpand(this)">
+                        <h1 class="profile-name">Rian Mahendra</h1>
+                        <span class="profile-occupant">Web Development</span>
+                        <span class="profile-desc">Software Engineer di TechInno</span>
+                        <div class="extra-content">
+                        <img style="width: 18px; margin: 0px 8px;" src="images/linkedin.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/twitter.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/ig.png" alt="">
+                            <img style="width: 14px; height: 14px; margin: 0px 8px;" src="images/youtube.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item2">
+                    <img src="state3.png" alt="Deskripsi Gambar" class="card-image" style="width: 240px;">
+                    <div class="carousel-banner" onclick="toggleExpand(this)">
+                        <h1 class="profile-name">Rian Mahendra</h1>
+                        <span class="profile-occupant">Web Development</span>
+                        <span class="profile-desc">Software Engineer di TechInno</span>
+                        <div class="extra-content">
+                        <img style="width: 18px; margin: 0px 8px;" src="images/linkedin.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/twitter.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/ig.png" alt="">
+                            <img style="width: 14px; height: 14px; margin: 0px 8px;" src="images/youtube.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item2">
+                    <img src="state3.png" alt="Deskripsi Gambar" class="card-image" style="width: 240px;">
+                    <div class="carousel-banner" onclick="toggleExpand(this)">
+                        <h1 class="profile-name">Rian Mahendra</h1>
+                        <span class="profile-occupant">Web Development</span>
+                        <span class="profile-desc">Software Engineer di TechInno</span>
+                        <div class="extra-content">
+                        <img style="width: 18px; margin: 0px 8px;" src="images/linkedin.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/twitter.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/ig.png" alt="">
+                            <img style="width: 14px; height: 14px; margin: 0px 8px;" src="images/youtube.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item2">
+                    <img src="state3.png" alt="Deskripsi Gambar" class="card-image" style="width: 240px;">
+                    <div class="carousel-banner" onclick="toggleExpand(this)">
+                        <h1 class="profile-name">Rian Mahendra</h1>
+                        <span class="profile-occupant">Web Development</span>
+                        <span class="profile-desc">Software Engineer di TechInno</span>
+                        <div class="extra-content">
+                        <img style="width: 18px; margin: 0px 8px;" src="images/linkedin.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/twitter.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/ig.png" alt="">
+                            <img style="width: 14px; height: 14px; margin: 0px 8px;" src="images/youtube.png" alt="">
+                        </div>
+                    </div>
+                </div>
     </div>
-    <div class="profile-card"> 
-        <img src="https://th.bing.com/th/id/OIP.A1CwO5Q3kquQPVeE9y4WWgHaJ9?rs=1&pid=ImgDetMain" alt="Farah Nurul"> 
-        <h2>Farah Nurul</h2> 
-        <p>Content Lead</p> 
-    </div>
-    <div class="profile-card"> 
-        <img src="https://th.bing.com/th/id/OIP.A1CwO5Q3kquQPVeE9y4WWgHaJ9?rs=1&pid=ImgDetMain" alt="Farah Nurul"> 
-        <h2>Farah Nurul</h2> 
-        <p>Content Lead</p> 
-    </div>
-    <div class="profile-card"> 
-        <img src="https://th.bing.com/th/id/OIP.A1CwO5Q3kquQPVeE9y4WWgHaJ9?rs=1&pid=ImgDetMain" alt="Farah Nurul"> 
-        <h2>Farah Nurul</h2> 
-        <p>Content Lead</p> 
-    </div>
-    <div class="profile-card"> 
-        <img src="https://th.bing.com/th/id/OIP.A1CwO5Q3kquQPVeE9y4WWgHaJ9?rs=1&pid=ImgDetMain" alt="Farah Nurul"> 
-        <h2>Farah Nurul</h2> 
-        <p>Content Lead</p> 
-    </div>
-
+                
     <!-- section 2 -->
     <section class="toggle-section">
         <div class="image-container">
@@ -59,12 +204,12 @@
             <p id="description">
                 Pendidikan formal sering kali nggak cukup buat mempersiapkan kita ke dunia kerja. Banyak yang merasa:
             </p>
-            <div id="content-grid" class="grid">
+            <div id="content-grid" class="grid2">
                 <!-- Konten "Masalah" -->
-                <div class="card">Skill dipelajari di Kampus Tidak Sesuai Dunia Kerja</div>
-                <div class="card">Bingung Harus Mulai dari Mana Setelah Lulus</div>
-                <div class="card">Salah Jurusan & Kesulitan Mengembangkan Diri</div>
-                <div class="card">Biaya Belajar yang Tinggi</div>
+                <div class="card2">Skill dipelajari di Kampus Tidak Sesuai Dunia Kerja</div>
+                <div class="card2">Bingung Harus Mulai dari Mana Setelah Lulus</div>
+                <div class="card2">Salah Jurusan & Kesulitan Mengembangkan Diri</div>
+                <div class="card2">Biaya Belajar yang Tinggi</div>
             </div>
         </div>
     </section>
@@ -99,7 +244,7 @@ problemBtn.addEventListener("click", () => {
     // Ubah deskripsi dan konten
     description.textContent =
         "Pendidikan formal sering kali nggak cukup buat mempersiapkan kita ke dunia kerja. Banyak yang merasa:";
-    image.src = "problem-image.jpg";
+    image.src = "https://img.freepik.com/premium-photo/man-having-headache-while-using-laptop_13339-297315.jpg";
     updateGrid(problemContent);
 });
 
@@ -111,7 +256,7 @@ solutionBtn.addEventListener("click", () => {
     // Ubah deskripsi dan konten
     description.textContent =
         "Kami hadir untuk memberikan solusi nyata yang mudah diakses semua orang:";
-    image.src = "solution-image.jpg";
+    image.src = "https://img.freepik.com/premium-photo/man-having-headache-while-using-laptop_13339-297315.jpg";
     updateGrid(solutionContent);
 });
 
@@ -120,12 +265,13 @@ function updateGrid(items) {
     contentGrid.innerHTML = ""; // Kosongkan grid
     items.forEach((item) => {
         const card = document.createElement("div");
-        card.className = "card";
+        card.className = "card2";
         card.textContent = item;
         contentGrid.appendChild(card);
     });
 }
-</script>
+
+    </script>
 
 <!-- section 3 -->
 <section class="about-section">
