@@ -1,4 +1,5 @@
-/* General Styles */
+<style>
+    /* General Styles */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -190,8 +191,7 @@ body {
 }
 
 .dropdown-menu a.logout-link:hover {
-  background-color: darkred; /* Ubah warna latar belakang saat di-hover */
-  color: white; /* Ubah warna teks saat di-hover */ /* Opsional: Mengubah warna menjadi merah lebih gelap saat di-hover */
+  color: red; /* Ubah warna teks saat di-hover */ /* Opsional: Mengubah warna menjadi merah lebih gelap saat di-hover */
 }
 
 @media (max-width: 768px) {
@@ -225,48 +225,41 @@ body {
   }
 }
 
-/*section 1 */
+</style>
 
-.container {
-  max-width: 1500px;
-  padding: 20px;
-}
-.header {
-  max-width: 700px;
-  text-align: left;
-  margin-bottom: 20px;
-}
-.header h1 {
-  font-size: 40px;
-  color: #333;
-}
-.highlight {
-  background-color: #a8e6cf;
-  padding: 2px 5px;
-}
-.highlight2 {
-  font-weight: bold;
-}
-.bold {
-  font-size: 25px;
-  font-style: italic;
-}
-.content {
-  text-align: right;
-  margin-top: 200px;
-}
-.content img {
-  max-width: 100%;
-  margin-left: 100px;
-}
-.description {
-  max-width: 500px;
-  text-align: left;
-  font-size: 13px;
-  color: #666;
-}
-
-.description video {
-  position: relative; 
-  transform: translate(570px, -495px);
-}
+<nav class="navbar">
+        <div class="logo">
+            <img src="https://luarsekolah.com/assets-front/images/icons/logo-merah.png" alt="Luar Sekolah Logo" class="logo-image">
+        </div>
+        <div class="menu">
+            <div class="dropdown">
+                <span class="dropdown-trigger">Program <i class="fas fa-chevron-down"></i></span>
+                <div class="dropdown-menu">
+                    <a href="https://magang.luarsekolah.com/">Magang+</a>
+                    <a href="https://www.luarsekolah.com/prakerja">Prakerja</a>
+                    <a href="https://belajarbekerja.com/">Belajar Berkerja</a>
+                    <a href="https://belajarbekerja.com/">Indonesia Skill Week</a>
+                </div>
+            </div>
+        </div>
+        <div class="search-bar">
+            <form class="search-form">
+                <input type="text" class="search-input" placeholder="Cari kelas yang ingin kamu pelajari">
+                <button type="submit" class="search-button">
+    <i class="fas fa-search"></i>
+</button>            </form>
+        </div>
+        <div class="auth-buttons">
+            <div class="dropdown">
+                <img src="https://via.placeholder.com/40" alt="User Photo" class="user-photo">
+                <span class="dropdown-trigger">Halo, Username <i class="fas fa-chevron-down"></i></span>
+                <div class="dropdown-menu">
+                    <a href="#">Reedem Voucher</a>
+                    <a href="#">Akun Saya</a>
+                    <a href="#">Kelas Saya</a>
+                    <a href="#">Transaksi Saya</a>
+                    <a href="#" class="logout-link">Keluar</a>
+                </div>
+            </div>
+        </div>
+    </nav>
