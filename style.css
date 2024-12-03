@@ -491,3 +491,337 @@ li {
 .carousel-banner.expanded .extra-content {
   max-height: 48px; /* Tinggi maksimum saat diperluas */
 }
+
+/* section 10-13 */
+h2 {
+    color: #fff;
+  }
+  
+  h3 {
+    color: #00CC99;
+  }
+  
+  p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+  }
+  
+  /* Buttons */
+  .btn-primary, .btn-secondary, .btn-section {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .btn-primary {
+    font-family: 'Nunito', sans-serif;
+    background-color: #00CC99;
+    color: white;
+  }
+  
+  .btn-secondary {
+    font-family: 'Nunito', sans-serif;
+    font-weight: normal;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  
+/* FAQ Section */
+.faq {
+    display: flex;
+    padding: 40px 20px;
+    gap: 20px;
+  }
+  
+  .faq-left {
+    margin-top: -40px;
+    flex: 1;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .faq-left h2 {
+    font-family: 'Nunito', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 23px;
+    color: #00CC99;
+    margin-bottom: 10px;
+  }
+  
+  .faq-left p {
+    color: #5e5e5e;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  
+  .faq-right {
+    flex: 2;
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+  
+  .faq-item {
+    font-family: 'Nunito', sans-serif;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    overflow: hidden;
+    flex-direction: column;
+  }
+  
+  /* Question Section */
+  .faq-item {
+    display: flex;
+    flex-direction: column; /* Pastikan item berada dalam kolom */
+  }
+  
+  .faq-question {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;  /* Sejajarkan elemen secara vertikal */
+    cursor: pointer;
+    margin-bottom: -5px;  /* Memberi jarak antara pertanyaan dan jawaban */
+  }
+  
+  .question-number {
+    font-weight: bold;
+    font-size: 20px;  /* Ukuran nomor */
+    margin-right: 15px;  /* Jarak antara nomor dan teks pertanyaan */
+    color: #00CC99;  /* Warna nomor */
+  }
+  
+  .question-text {
+    font-size: 18px;  /* Ukuran teks pertanyaan */
+    color: #333;  /* Warna teks pertanyaan */
+    flex-grow: 1;  /* Membuat teks mengambil sisa ruang */
+    font-weight: bold;
+    text-align: start;  /* Menyelaraskan teks */
+  }
+  
+  .faq-answer {
+    font-family: 'Nunito', sans-serif;
+    display: none;
+    margin-top: 10px;
+    color: #555;
+    font-size: 14px;
+    margin-left: 40px; /* Sejajarkan dengan nomor */
+  }
+  
+  .faq-item.active .faq-answer {
+    display: block;  /* Menampilkan jawaban ketika aktif */
+  }
+  
+  .arrow {
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    border-radius: 3px;
+    border-right: 4px solid #00796b;
+    border-bottom: 4px solid #00796b;
+    transform: rotate(45deg);  /* Posisi panah mengarah ke bawah */
+    transition: transform 0.3s ease;
+    margin-left: auto;  /* Memberi jarak antara teks dan panah */
+  }
+  
+  .faq-item.active .arrow {
+    transform: rotate(-135deg);  /* Arah panah berubah ketika aktif */
+  }
+  
+  .faq-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  @media (max-width: 768px) {
+    .faq {
+      flex-direction: column;
+    }
+    
+    .faq-left, .faq-right {
+      flex: none;
+      width: 100%;
+    }
+  }
+  
+  /* CTA Section */
+  .cta {
+    border-radius: 8px;
+    background-color: #00CC99;
+    color: white;
+    text-align: center;
+    padding: 30px 10px;
+    width: 95%;
+    max-width: 1200px;
+    margin: auto; /* Membuat elemen berada di tengah */
+    height: 200px; /* Menentukan tinggi tetap */
+}
+
+  
+  .cta h2 {
+    font-family: 'Nunito', Arial, sans-serif;
+    font-size: 24px;
+  }
+  
+  /* Contact Section */
+  .contact {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .contact-form {
+    margin-left: 20px;
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form form input,
+  .contact-form form select,
+  .contact-form form textarea {
+    /* width: 100%; */
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .contact-form .form-row {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .contact-form textarea {
+    resize: none;
+  }
+  
+  .contact-form .btn-primary {
+    background-color: #00CC99;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .contact-form .btn-primary:hover {
+    background-color: #009977;
+  }
+  
+  .alamat {
+    color: #a4a4a4;
+  }
+
+  .ctk {
+    font-size: 16px;
+    color: black;
+}
+  
+  /* section Section */
+  .custom-section {
+    margin: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #00cc99;
+    color: white;
+    text-align: justify;
+    padding: 20px;
+  }
+  
+  .section h3 {
+    font-family: 'Nunito', sans-serif;
+    /* color: #fff; */
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  .section-content {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .section-text {
+    font-family: 'Nunito', Arial, sans-serif;
+    color: #fff;
+    margin: 20px 25px;
+    margin-top: -50px;
+    flex: 1;
+    max-width: 60%; /* Membatasi lebar teks */
+  }
+  
+  .section-image {
+    margin-right: 30px;
+    margin-top: 40px;
+    flex: 1;
+    text-align: right; /* Mengatur gambar di kanan */
+    width: 200px; /* Lebar area crop */
+    height: 300px; /* Tinggi area crop */
+    overflow: hidden; /* Memotong gambar yang keluar dari area */
+    position: relative;
+  }
+  
+  .section-image img {
+    border-radius: 8px;
+    width: 100%; /* Mengatur lebar gambar */
+    height: 250px; /* Atur tinggi gambar */
+    object-fit: cover; /* Crop gambar agar memenuhi area */
+    object-position: bottom; /* Fokus crop di tengah gambar */
+    max-width: none; /* Menghapus pembatasan lebar maksimal */
+    overflow: hidden; /* Memastikan bagian luar gambar tidak terlihat */
+}
+
+.section-h3 {
+  font-size: 28px;
+  color: #fff;
+}
+
+.btn-section {
+    font-family: 'Nunito', sans-serif;
+    font-weight: normal;
+    background-color: #ffffff;
+    color: #00CC99
+}
+
+ .contact-info {
+  border-radius: 15px;
+ }
+
+ .social-icons {
+  margin-top: 10px; /* Jarak antara teks alamat dan ikon */
+  display: flex;    /* Menyusun ikon secara horizontal */
+  gap: 15px;        /* Jarak antar ikon */
+  justify-content: start; /* Rata kiri (ubah ke center jika diinginkan) */
+}
+
+.social-icons img {
+  width: 30px;      /* Ukuran lebar ikon */
+  height: 30px;     /* Ukuran tinggi ikon */
+  border-radius: 50%; /* Membuat gambar menjadi bulat */
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);    /* Efek zoom saat hover */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Bayangan saat hover */
+}
