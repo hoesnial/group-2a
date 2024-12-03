@@ -29,11 +29,11 @@
     }
 
     .footer-logo img {
-        max-width: 150px; /* Ganti dengan ukuran logo Anda */
+        max-width: 150px; 
     }
 
     .footer-logo .textfooter {
-        line-height: 1.5; /* Menambahkan line-height untuk merenggangkan baris */
+        line-height: 1.5; 
     }
 
     .footer-links {
@@ -44,7 +44,7 @@
     }
 
     .footer-links .column {
-        line-height: 1.5; /* Menambahkan line-height untuk merenggangkan baris */
+        line-height: 1.5; 
         flex: 1;
         margin-right: 40px;
     }
@@ -88,18 +88,17 @@
 
     .footer-playstore img {
         max-width: 150px;
-        cursor: pointer; /* Menambahkan cursor pointer agar pengguna tahu itu bisa diklik */
+        cursor: pointer; 
     }
 
-    /* Footer Bottom */
     .footer-bottom {
         width: 100%;
         display: flex;
-        justify-content: space-between; /* Mengatur konten di kiri dan kanan */
+        justify-content: space-between; 
         font-size: 14px;
         color: #4B5563;
         margin-top: 20px;
-        padding: 0 20px; /* Memberikan padding untuk jarak dari tepi */
+        padding: 0 20px; 
     }
 
     .footer-bottom ul {
@@ -112,12 +111,10 @@
         list-style: none;
     }
 
-    /* Untuk teks di pojok kiri */
     .footer-bottom .left {
         margin-left: 0;
     }
 
-    /* Untuk teks di pojok kanan */
     .footer-bottom .right {
         margin-left: 700px;
     }
@@ -125,14 +122,12 @@
 
 <footer>
     <div class="footer-container">
-        <!-- Logo -->
         <div class="footer-logo">
-            <img src="images/logo.png" alt="Logo"> <!-- Ganti dengan path logo Anda -->
+            <img src="images/logo.png" alt="Logo"> 
             <p class="textfooter">Luarsekolah merupakan wadah belajar <br>dan mengajar pelajaran non-formal/
                 <br>alternatif dengan cara menyediakan <br> kelas pengajaran dalam bentuk online<br> dan offline</p>
         </div>
 
-        <!-- Link Sections -->
         <div class="footer-links">
             <!-- Column 1 -->
             <div class="column">
@@ -163,18 +158,15 @@
             </div>
         </div>
 
-        <!-- Google Play Logo as a Button -->
         <div class="footer-playstore">
             <a href="https://play.google.com/store/apps/details?id=com.luarsekolah.mobile" target="_blank">
                 <img src="images/googleplay.png" alt="Google Play">
-            </a> <!-- Ganti dengan path logo Google Play -->
+            </a>
         </div>
 
         <div class="footer-bottom">
         <ul>
-            <!-- Left side -->
             <li class="left">PT Teknologi Edukasi Indonesia.</li>
-            <!-- Right side -->
             <li class="right">Copyright &copy;2022 All Rights Reserved.</li>
         </ul>
     </div>

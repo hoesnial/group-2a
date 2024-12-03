@@ -1,5 +1,4 @@
 <style>
-    /* General Styles */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -205,23 +204,23 @@ body {
   }
 
   .search-bar {
-    width: 100%; /* Full width on mobile */
-    margin: 10px 0; /* Add margin for spacing */
+    width: 100%; 
+    margin: 10px 0; 
   }
 
   .auth-buttons {
-    margin-top: 10px; /* Add margin for mobile */
+    margin-top: 10px; 
   }
 }
 
 @media (max-width: 480px) {
   .search-input {
-    padding: 8px; /* Smaller padding on small screens */
+    padding: 8px; 
   }
 
   .search-button {
-    padding: 8px; /* Smaller padding on small screens */
-    font-size: 14px; /* Adjust font size */
+    padding: 8px; 
+    font-size: 14px; 
   }
 }
 
