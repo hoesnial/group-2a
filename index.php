@@ -12,38 +12,285 @@
 <?php include('navbar.php'); ?>
 
 <!-- section 1 -->
-<div class="container1">
-        <div class="title">Tentang Kami</div>
-        <div class="main-text">Luarsekolah untuk Masa Depan yang Lebih Baik</div>
-        <div class="description">
-            Platform edukasi vokasi dan pengembangan diri berbasis online yang mendampingi generasi muda Indonesia untuk terus berkembang #sampaijadibisa
-        </div>
+<div class="section-1" style="display: flex; flex-direction: column; gap: 0px;">
+    <!-- Title Section -->
+    <div class="title">
+        <p style="font-family: Nunito, normal; font-weight: 700; font-size: 24px; color:#111827; text-align: center; letter-spacing: 0.3px; line-height: 28px; margin-bottom: 20px; margin-top:20px;">
+            Tentang Kami
+        </p>
     </div>
-    <div class="profile-card"> 
-        <img src="https://i.pinimg.com/originals/d2/91/0f/d2910fd5794ef00f0cb242a54cd04808.jpg" alt="Farah Nurul"> 
-        <h2>Rina Oktaviani</h2> 
-        <p>Chief Operating Officer</p> 
+
+    <!-- Main Text Section -->
+    <div class="main-text">
+        <p style="font-family: Nunito, sans-serif; font-weight: 600; font-size: 80px; color: #00CC99; text-align: center; line-height: 88px; margin-bottom: 20px;">
+            Luarsekolah untuk Masa <br> Depan yang Lebih Baik
+        </p>
     </div>
-    <div class="profile-card"> 
-        <img src="https://th.bing.com/th/id/OIP.A1CwO5Q3kquQPVeE9y4WWgHaJ9?rs=1&pid=ImgDetMain" alt="Farah Nurul"> 
-        <h2>Farah Nurul</h2> 
-        <p>Content Lead</p> 
+
+    <!-- Description Section -->
+    <div class="description">
+        <p style="font-family: Nunito, sans-serif; font-weight: 500; font-size: 20px; color: #4B5563; text-align: center; line-height: 30px; margin-bottom: 30px;">
+            Platform edukasi vokasi dan pengembangan diri berbasis online yang mendampingi generasi muda <br> Indonesia untuk terus berkembang #sampaijadibisa
+        </p>
     </div>
-    <div class="profile-card"> 
-        <img src="https://th.bing.com/th/id/OIP.A1CwO5Q3kquQPVeE9y4WWgHaJ9?rs=1&pid=ImgDetMain" alt="Farah Nurul"> 
-        <h2>Farah Nurul</h2> 
-        <p>Content Lead</p> 
+</div>
+
+<!-- Profile Cards Scroll -->
+<div class="kartu-section-wrapper">
+    <div class="shape-sections">
+    <div class="carousel-item">
+                <img src="state5.png" alt="Deskripsi Gambar" class="card-image" style="width: 240px;">
+                <div class="carousel-banner" onclick="toggleExpand(this)">
+                    <h1 class="profile-name">Afif Setyawan</h1>
+                    <span class="profile-occupant">Business Strategy</span>
+                    <span class="profile-desc">Business Analyst di StartUpPros</span>
+                   <div class="extra-content">
+                   <img style="width: 18px; margin: 0px 8px;" src="images/linkedin.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/twitter.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/ig.png" alt="">
+                            <img style="width: 14px; height: 14px; margin: 0px 8px;" src="images/youtube.png" alt="">
+                        </div>
+                </div>
+            </div>
+            <div class="carousel-person-item">
+                <img src="state3.png" alt="Deskripsi Gambar" class="card-image" style="width: 240px;">
+                <div class="carousel-banner" onclick="toggleExpand(this)">
+                    <h1 class="profile-name">Rian Mahendra</h1>
+                    <span class="profile-occupant">Web Development</span>
+                    <span class="profile-desc">Software Engineer di TechInno</span>
+                   <div class="extra-content">
+                   <img style="width: 18px; margin: 0px 8px;" src="images/linkedin.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/twitter.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/ig.png" alt="">
+                            <img style="width: 14px; height: 14px; margin: 0px 8px;" src="images/youtube.png" alt="">
+                        </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="state2.png" alt="Deskripsi Gambar" class="card-image" style="width: 240px;">
+                <div class="carousel-banner" onclick="toggleExpand(this)">
+                    <h1 class="profile-name">Ahmad Fadhil</h1>
+                    <span class="profile-occupant">UI/UX Design</span>
+                    <span class="profile-desc">Product Designer di InnovApp</span>
+                   <div class="extra-content">
+                   <img style="width: 18px; margin: 0px 8px;" src="images/linkedin.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/twitter.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/ig.png" alt="">
+                            <img style="width: 14px; height: 14px; margin: 0px 8px;" src="images/youtube.png" alt="">
+                        </div>
+                </div>
+            </div>            <div class="carousel-item">
+                <img src="state5.png" alt="Deskripsi Gambar" class="card-image" style="width: 240px;">
+                <div class="carousel-banner" onclick="toggleExpand(this)">
+                    <h1 class="profile-name">Afif Setyawan</h1>
+                    <span class="profile-occupant">Business Strategy</span>
+                    <span class="profile-desc">Business Analyst di StartUpPros</span>
+                   <div class="extra-content">
+                   <img style="width: 18px; margin: 0px 8px;" src="images/linkedin.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/twitter.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/ig.png" alt="">
+                            <img style="width: 14px; height: 14px; margin: 0px 8px;" src="images/youtube.png" alt="">
+                        </div>
+                </div>
+            </div>
+            <div class="carousel-person-item">
+                <img src="state3.png" alt="Deskripsi Gambar" class="card-image" style="width: 240px;">
+                <div class="carousel-banner" onclick="toggleExpand(this)">
+                    <h1 class="profile-name">Rian Mahendra</h1>
+                    <span class="profile-occupant">Web Development</span>
+                    <span class="profile-desc">Software Engineer di TechInno</span>
+                   <div class="extra-content">
+                   <img style="width: 18px; margin: 0px 8px;" src="images/linkedin.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/twitter.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/ig.png" alt="">
+                            <img style="width: 14px; height: 14px; margin: 0px 8px;" src="images/youtube.png" alt="">
+                        </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="state2.png" alt="Deskripsi Gambar" class="card-image" style="width: 240px;">
+                <div class="carousel-banner" onclick="toggleExpand(this)">
+                    <h1 class="profile-name">Ahmad Fadhil</h1>
+                    <span class="profile-occupant">UI/UX Design</span>
+                    <span class="profile-desc">Product Designer di InnovApp</span>
+                   <div class="extra-content">
+                   <img style="width: 18px; margin: 0px 8px;" src="images/linkedin.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/twitter.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/ig.png" alt="">
+                            <img style="width: 14px; height: 14px; margin: 0px 8px;" src="images/youtube.png" alt="">
+                        </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="state5.png" alt="Deskripsi Gambar" class="card-image" style="width: 240px;">
+                <div class="carousel-banner" onclick="toggleExpand(this)">
+                    <h1 class="profile-name">Afif Setyawan</h1>
+                    <span class="profile-occupant">Business Strategy</span>
+                    <span class="profile-desc">Business Analyst di StartUpPros</span>
+                   <div class="extra-content">
+                   <img style="width: 18px; margin: 0px 8px;" src="images/linkedin.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/twitter.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/ig.png" alt="">
+                            <img style="width: 14px; height: 14px; margin: 0px 8px;" src="images/youtube.png" alt="">
+                        </div>
+                </div>
+            </div>
+            <div class="carousel-person-item">
+                <img src="state3.png" alt="Deskripsi Gambar" class="card-image" style="width: 240px;">
+                <div class="carousel-banner" onclick="toggleExpand(this)">
+                    <h1 class="profile-name">Rian Mahendra</h1>
+                    <span class="profile-occupant">Web Development</span>
+                    <span class="profile-desc">Software Engineer di TechInno</span>
+                   <div class="extra-content">
+                   <img style="width: 18px; margin: 0px 8px;" src="images/linkedin.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/twitter.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/ig.png" alt="">
+                            <img style="width: 14px; height: 14px; margin: 0px 8px;" src="images/youtube.png" alt="">
+                        </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="state2.png" alt="Deskripsi Gambar" class="card-image" style="width: 240px;">
+                <div class="carousel-banner" onclick="toggleExpand(this)">
+                    <h1 class="profile-name">Ahmad Fadhil</h1>
+                    <span class="profile-occupant">UI/UX Design</span>
+                    <span class="profile-desc">Product Designer di InnovApp</span>
+                   <div class="extra-content">
+                   <img style="width: 18px; margin: 0px 8px;" src="images/linkedin.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/twitter.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/ig.png" alt="">
+                            <img style="width: 14px; height: 14px; margin: 0px 8px;" src="images/youtube.png" alt="">
+                        </div>
+                </div>
+            </div>            <div class="carousel-item">
+                <img src="state5.png" alt="Deskripsi Gambar" class="card-image" style="width: 240px;">
+                <div class="carousel-banner" onclick="toggleExpand(this)">
+                    <h1 class="profile-name">Afif Setyawan</h1>
+                    <span class="profile-occupant">Business Strategy</span>
+                    <span class="profile-desc">Business Analyst di StartUpPros</span>
+                   <div class="extra-content">
+                   <img style="width: 18px; margin: 0px 8px;" src="images/linkedin.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/twitter.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/ig.png" alt="">
+                            <img style="width: 14px; height: 14px; margin: 0px 8px;" src="images/youtube.png" alt="">
+                        </div>
+                </div>
+            </div>
+            <div class="carousel-person-item">
+                <img src="state3.png" alt="Deskripsi Gambar" class="card-image" style="width: 240px;">
+                <div class="carousel-banner" onclick="toggleExpand(this)">
+                    <h1 class="profile-name">Rian Mahendra</h1>
+                    <span class="profile-occupant">Web Development</span>
+                    <span class="profile-desc">Software Engineer di TechInno</span>
+                   <div class="extra-content">
+                   <img style="width: 18px; margin: 0px 8px;" src="images/linkedin.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/twitter.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/ig.png" alt="">
+                            <img style="width: 14px; height: 14px; margin: 0px 8px;" src="images/youtube.png" alt="">
+                        </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="state2.png" alt="Deskripsi Gambar" class="card-image" style="width: 240px;">
+                <div class="carousel-banner" onclick="toggleExpand(this)">
+                    <h1 class="profile-name">Ahmad Fadhil</h1>
+                    <span class="profile-occupant">UI/UX Design</span>
+                    <span class="profile-desc">Product Designer di InnovApp</span>
+                   <div class="extra-content">
+                   <img style="width: 18px; margin: 0px 8px;" src="images/linkedin.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/twitter.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/ig.png" alt="">
+                            <img style="width: 14px; height: 14px; margin: 0px 8px;" src="images/youtube.png" alt="">
+                        </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="state5.png" alt="Deskripsi Gambar" class="card-image" style="width: 240px;">
+                <div class="carousel-banner" onclick="toggleExpand(this)">
+                    <h1 class="profile-name">Afif Setyawan</h1>
+                    <span class="profile-occupant">Business Strategy</span>
+                    <span class="profile-desc">Business Analyst di StartUpPros</span>
+                   <div class="extra-content">
+                   <img style="width: 18px; margin: 0px 8px;" src="images/linkedin.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/twitter.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/ig.png" alt="">
+                            <img style="width: 14px; height: 14px; margin: 0px 8px;" src="images/youtube.png" alt="">
+                        </div>
+                </div>
+            </div>
+            <div class="carousel-person-item">
+                <img src="state3.png" alt="Deskripsi Gambar" class="card-image" style="width: 240px;">
+                <div class="carousel-banner" onclick="toggleExpand(this)">
+                    <h1 class="profile-name">Rian Mahendra</h1>
+                    <span class="profile-occupant">Web Development</span>
+                    <span class="profile-desc">Software Engineer di TechInno</span>
+                   <div class="extra-content">
+                   <img style="width: 18px; margin: 0px 8px;" src="images/linkedin.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/twitter.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/ig.png" alt="">
+                            <img style="width: 14px; height: 14px; margin: 0px 8px;" src="images/youtube.png" alt="">
+                        </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="state2.png" alt="Deskripsi Gambar" class="card-image" style="width: 240px;">
+                <div class="carousel-banner" onclick="toggleExpand(this)">
+                    <h1 class="profile-name">Ahmad Fadhil</h1>
+                    <span class="profile-occupant">UI/UX Design</span>
+                    <span class="profile-desc">Product Designer di InnovApp</span>
+                   <div class="extra-content">
+                   <img style="width: 18px; margin: 0px 8px;" src="images/linkedin.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/twitter.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/ig.png" alt="">
+                            <img style="width: 14px; height: 14px; margin: 0px 8px;" src="images/youtube.png" alt="">
+                        </div>
+                </div>
+            </div>            <div class="carousel-item">
+                <img src="state5.png" alt="Deskripsi Gambar" class="card-image" style="width: 240px;">
+                <div class="carousel-banner" onclick="toggleExpand(this)">
+                    <h1 class="profile-name">Afif Setyawan</h1>
+                    <span class="profile-occupant">Business Strategy</span>
+                    <span class="profile-desc">Business Analyst di StartUpPros</span>
+                   <div class="extra-content">
+                   <img style="width: 18px; margin: 0px 8px;" src="images/linkedin.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/twitter.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/ig.png" alt="">
+                            <img style="width: 14px; height: 14px; margin: 0px 8px;" src="images/youtube.png" alt="">
+                        </div>
+                </div>
+            </div>
+            <div class="carousel-person-item">
+                <img src="state3.png" alt="Deskripsi Gambar" class="card-image" style="width: 240px;">
+                <div class="carousel-banner" onclick="toggleExpand(this)">
+                    <h1 class="profile-name">Rian Mahendra</h1>
+                    <span class="profile-occupant">Web Development</span>
+                    <span class="profile-desc">Software Engineer di TechInno</span>
+                   <div class="extra-content">
+                   <img style="width: 18px; margin: 0px 8px;" src="images/linkedin.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/twitter.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/ig.png" alt="">
+                            <img style="width: 14px; height: 14px; margin: 0px 8px;" src="images/youtube.png" alt="">
+                        </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="state2.png" alt="Deskripsi Gambar" class="card-image" style="width: 240px;">
+                <div class="carousel-banner" onclick="toggleExpand(this)">
+                    <h1 class="profile-name">Ahmad Fadhil</h1>
+                    <span class="profile-occupant">UI/UX Design</span>
+                    <span class="profile-desc">Product Designer di InnovApp</span>
+                   <div class="extra-content">
+                   <img style="width: 18px; margin: 0px 8px;" src="images/linkedin.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/twitter.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/ig.png" alt="">
+                            <img style="width: 14px; height: 14px; margin: 0px 8px;" src="images/youtube.png" alt="">
+                        </div>
+                </div>
+            </div>
     </div>
-    <div class="profile-card"> 
-        <img src="https://th.bing.com/th/id/OIP.A1CwO5Q3kquQPVeE9y4WWgHaJ9?rs=1&pid=ImgDetMain" alt="Farah Nurul"> 
-        <h2>Farah Nurul</h2> 
-        <p>Content Lead</p> 
-    </div>
-    <div class="profile-card"> 
-        <img src="https://th.bing.com/th/id/OIP.A1CwO5Q3kquQPVeE9y4WWgHaJ9?rs=1&pid=ImgDetMain" alt="Farah Nurul"> 
-        <h2>Farah Nurul</h2> 
-        <p>Content Lead</p> 
-    </div>
+</div>
+
+<script src="scroll-animation.js"></script>
 
     <!-- section 2 -->
     <section class="toggle-section">
@@ -59,12 +306,12 @@
             <p id="description">
                 Pendidikan formal sering kali nggak cukup buat mempersiapkan kita ke dunia kerja. Banyak yang merasa:
             </p>
-            <div id="content-grid" class="grid">
+            <div id="content-grid" class="grid2">
                 <!-- Konten "Masalah" -->
-                <div class="card">Skill dipelajari di Kampus Tidak Sesuai Dunia Kerja</div>
-                <div class="card">Bingung Harus Mulai dari Mana Setelah Lulus</div>
-                <div class="card">Salah Jurusan & Kesulitan Mengembangkan Diri</div>
-                <div class="card">Biaya Belajar yang Tinggi</div>
+                <div class="card2">Skill dipelajari di Kampus Tidak Sesuai Dunia Kerja</div>
+                <div class="card2">Bingung Harus Mulai dari Mana Setelah Lulus</div>
+                <div class="card2">Salah Jurusan & Kesulitan Mengembangkan Diri</div>
+                <div class="card2">Biaya Belajar yang Tinggi</div>
             </div>
         </div>
     </section>
@@ -99,7 +346,7 @@ problemBtn.addEventListener("click", () => {
     // Ubah deskripsi dan konten
     description.textContent =
         "Pendidikan formal sering kali nggak cukup buat mempersiapkan kita ke dunia kerja. Banyak yang merasa:";
-    image.src = "problem-image.jpg";
+    image.src = "https://img.freepik.com/premium-photo/man-having-headache-while-using-laptop_13339-297315.jpg";
     updateGrid(problemContent);
 });
 
@@ -111,7 +358,7 @@ solutionBtn.addEventListener("click", () => {
     // Ubah deskripsi dan konten
     description.textContent =
         "Kami hadir untuk memberikan solusi nyata yang mudah diakses semua orang:";
-    image.src = "solution-image.jpg";
+    image.src = "https://img.freepik.com/premium-photo/man-having-headache-while-using-laptop_13339-297315.jpg";
     updateGrid(solutionContent);
 });
 
@@ -120,16 +367,17 @@ function updateGrid(items) {
     contentGrid.innerHTML = ""; // Kosongkan grid
     items.forEach((item) => {
         const card = document.createElement("div");
-        card.className = "card";
+        card.className = "card2";
         card.textContent = item;
         contentGrid.appendChild(card);
     });
 }
-</script>
+
+    </script>
 
 <!-- section 3 -->
 <section class="about-section">
-        <div class="content">
+        <div class="about">
             <h2>Cerita di Balik Luarsekolah</h2>
             <p>
                 Di Luarsekolah, kami menyediakan mentor ahli dan program belajar yang fleksibel sejak 2019,
@@ -152,6 +400,61 @@ function updateGrid(items) {
         </div>
     </section>
 
+
+
+
+    <!-- Section 5 -->
+     <div class="section-5-container">
+    <div class="keunggulan">
+      <div class="frame-633140">
+        <div class="apa-yang-bikin-kami-beda">Apa yang Bikin Kami Beda?</div>
+        <div class="kami-menawarkan-keunggulan-seperti">
+          Kami menawarkan keunggulan seperti:
+        </div>
+      </div>
+      <div class="frame-633144">
+        <div class="frame-633116">
+          <img
+            class="bold-duotone-money-verified-check"
+            src="images/bold-duotone-money-verified-check0.svg"
+          />
+          <div class="mentor-profesional">Mentor Profesional</div>
+          <div class="belajar-dari-ahlinya">Belajar dari ahlinya</div>
+        </div>
+        <div class="frame-633143">
+          <img
+            class="bold-duotone-money-tag-price"
+            src="images/bold-duotone-money-tag-price0.svg"
+          />
+          <div class="harga-terjangkau">Harga Terjangkau</div>
+          <div class="kualitas-tinggi-harga-murah">
+            Kualitas tinggi harga murah
+          </div>
+        </div>
+        <div class="frame-633141">
+          <div class="bold-duotone-electronic-devices-smartphone-update">
+            <img class="clip-path-group" src="images/clip-path-group0.svg" />
+          </div>
+          <div class="materi-terupdate">Materi Terupdate</div>
+          <div class="dibuat-sesuai-tren-industri">
+            Dibuat sesuai tren industri
+          </div>
+        </div>
+        <div class="frame-633142">
+          <img
+            class="bold-duotone-time-clock-circle"
+            src="images/bold-duotone-time-clock-circle0.svg"
+          />
+          <div class="waktu-fleksibel">Waktu Fleksibel</div>
+          <div class="akses-kapan-aja-dimana-aja">
+            Akses kapan aja, dimana aja
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+
 <div class="city-container">
         <div class="" style="font-family: Nunito, sans-seriff; font-weight: bold; font-size: 36px; color: #00CC99; width: 100%; text-align: center;">Dampak Nyata, Mewujudkan Perubahan</div>
         <div class="grid-city">
@@ -168,18 +471,146 @@ function updateGrid(items) {
                 <p style="font-family: Nunito, sans-seriff; font-weight: 500; font-size: 16px; color: #4B5563;">telah berhasil mendapatkan pekerjaan</p>
             </div>
         </div>
+
+        <!-- section 6 -->
         <div class="" style="font-family: Nunito, sans-seriff; font-weight: bold; font-size: 24px; color: #111827; width: 100%; text-align: center; margin-top: 40px; margin-bottom: 40px;">Platform Kami Mencakup di Penjuru Nusantara</div>
         <div style="width: 100%; display: flex; justify-content: center; align-items: center;">
             <img src="map.png" style="width: 80%;" alt="">
         </div>
     </div>
 
-    <!-- Main Content Section -->
-    <div class="main-container">
+   <!-- Section 7 -->
+   <div class="section-7-container">
+    <div class="frame-633207">
+    <div class="frame-633204">
+      <div class="cerita-sukses-pengguna">Cerita Sukses Pengguna</div>
+      <div class="text">
+        Setiap perjalanan belajar adalah cerita yang unik. Luarsekolah, kami
+        bangga telah membantu banyak individu mengubah hidup mereka melalui
+        pendidikan yang relevan dan praktis.
+      </div>
+    </div>
+    <div class="frame-633206">
+      <div class="frame-633205">
+        <div class="frame-633175">
+          <img class="ellipse-5" src="images/satu.png" />
+          <div class="frame-633196">
+            <div class="fahmi-pratama">Fahmi Pratama</div>
+            <div class="digital-marketing">Digital Marketing</div>
+            <div class="mentor-social-media">
+              <div class="gray-button">
+                <img class="linked-in" src="linked-in0.svg" />
+              </div>
+              <div class="gray-button">
+                <img class="twitter" src="twitter0.svg" />
+              </div>
+              <div class="gray-button">
+                <img class="instagram" src="instagram0.svg" />
+              </div>
+              <div class="gray-button">
+                <img class="youtube" src="youtube0.svg" />
+              </div>
+            </div>
+          </div>
+          <div
+            class="saya-baru-saja-mengikuti-kelas-digital-marketing-di-luar-sekolah-dan-hasilnya-luar-biasa-dalam-3-bulan-omzet-usaha-saya-naik-40-kelas-ini-memberikan-wawasan-praktis-yang-langsung-bisa-saya-aplikasikan-ke-bisnis-saya-terima-kasih-mentor-mentor-di-luar-sekolah-kalian-luar-biasa"
+          >
+            &quot;Saya baru saja mengikuti kelas Digital Marketing di Luar
+            Sekolah, dan hasilnya luar biasa! Dalam 3 bulan, omzet usaha saya naik
+            40%! Kelas ini memberikan wawasan praktis yang langsung bisa saya
+            aplikasikan ke bisnis saya. Terima kasih, mentor-mentor di Luar
+            Sekolah. Kalian luar biasa!&quot;
+          </div>
+        </div>
+        <div class="frame-633176">
+          <img class="ellipse-5" src="images/dua.png" />
+          <div class="frame-633196">
+            <div class="mira-setyaningrum">Mira Setyaningrum</div>
+            <div class="ui-ux-design">UI/UX Design</div>
+            <div class="mentor-social-media">
+              <div class="gray-button">
+                <img class="linked-in2" src="linked-in1.svg" />
+              </div>
+              <div class="gray-button">
+                <img class="twitter2" src="twitter1.svg" />
+              </div>
+              <div class="gray-button">
+                <img class="instagram2" src="instagram1.svg" />
+              </div>
+              <div class="gray-button">
+                <img class="youtube2" src="youtube1.svg" />
+              </div>
+            </div>
+          </div>
+          <div
+            class="sebelum-bergabung-dengan-kelas-ux-design-bootcamp-saya-tidak-tahu-harus-mulai-dari-mana-tapi-sekarang-saya-bekerja-sebagai-desainer-ui-ux-di-perusahaan-teknologi-besar-semua-berkat-program-intensif-dan-dukungan-mentor-dari-luar-sekolah-sangat-direkomendasikan-untuk-siapa-pun-yang-ingin-berpindah-karier"
+          >
+            “Sebelum bergabung dengan kelas UX Design Bootcamp, saya tidak tahu
+            harus mulai dari mana. Tapi sekarang, saya bekerja sebagai desainer
+            UI/UX di perusahaan teknologi besar! Semua berkat program intensif dan
+            dukungan mentor dari Luar Sekolah. Sangat direkomendasikan untuk siapa
+            pun yang ingin berpindah karier!”
+          </div>
+        </div>
+        <div class="frame-633179">
+          <img class="ellipse-5" src="images/tiga.png" />
+          <div class="frame-633196">
+            <div class="ardi-prakoso">Ardi Prakoso</div>
+            <div class="web-development">Web Development</div>
+            <div class="mentor-social-media">
+              <div class="gray-button">
+                <img class="linked-in3" src="linked-in2.svg" />
+              </div>
+              <div class="gray-button">
+                <img class="twitter3" src="twitter2.svg" />
+              </div>
+              <div class="gray-button">
+                <img class="instagram3" src="instagram2.svg" />
+              </div>
+              <div class="gray-button">
+                <img class="youtube3" src="youtube2.svg" />
+              </div>
+            </div>
+          </div>
+          <div
+            class="sebagai-lulusan-baru-saya-merasa-minder-memasuki-dunia-kerja-beruntung-saya-mengikuti-program-soft-skills-di-luar-sekolah-selain-belajar-komunikasi-efektif-saya-juga-mendapat-tips-wawancara-kerja-hasilnya-saya-diterima-di-perusahaan-impian-saya-terima-kasih-luar-sekolah"
+          >
+            &quot;Sebagai lulusan baru, saya merasa minder memasuki dunia kerja.
+            Beruntung saya mengikuti program Soft Skills di Luar Sekolah. Selain
+            belajar komunikasi efektif, saya juga mendapat tips wawancara kerja.
+            Hasilnya? Saya diterima di perusahaan impian saya! Terima kasih Luar
+            Sekolah!&quot;
+          </div>
+        </div>
+      </div>
+      <div class="pagination">
+        <div class="indicator">
+          <div class="_1">1</div>
+        </div>
+        <div class="indicator2">
+          <div class="_2">2</div>
+        </div>
+        <div class="indicator2">
+          <div class="_3">3</div>
+        </div>
+        <div class="gray-button2">
+          <img class="dots" src="dots0.svg" />
+        </div>
+        <div class="gray-button2">
+          <img class="chevron-right" src="chevron-right0.svg" />
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+<!-- section 8 -->
+<div class="main-container">
         <div style="display: flex; flex-direction: row; overflow-x: hidden; padding-top: 40px; padding-left:60px; padding-bottom: 40px;">
             <div class="text-container">
-                <h2 class="text text-title">Belajar dari Praktisi <br>Terbaik di Bidangnya</h2>
-                <p class="text text-desc">Setiap perjalanan belajar adalah cerita yang unik. Luarsekolah,
+                <h2 style=" font-family: Nunito, sans-serif;margin-right: 20px; margin-top: 10px; color: white;   font-weight: 700;
+                letter-spacing: 0.3px; font-size: 28px;" >Belajar dari Praktisi <br>Terbaik di Bidangnya</h2>
+                <p style="  font-weight: 600; font-size: 14px; line-height: 24px; letter-spacing: 0.3px; color: white;">Setiap perjalanan belajar adalah cerita yang unik. Luarsekolah,
                     kami bangga telah membantu banyak individu mengubah hidup mereka melalui pendidikan
                     yang relevan dan praktis.</p>
                 <button class="cta-button">Lihat Selengkapnya</button>
@@ -566,7 +997,7 @@ function updateGrid(items) {
         <button class="btn-section">Ajukan Penawaran</button>
       </div>
       <div class="section-image">
-        <img src="images/inspirational.jpg" alt="Inspirational Image">
+        <img src="images/inspirational.png" alt="Inspirational Image">
       </div>
     </div>
   </section>
@@ -632,6 +1063,21 @@ function updateGrid(items) {
                 smoothScrollTo(currentScrollLeft - itemWidth);
             }
         }
+    </script>
+    <script>
+      function showContent(section) {
+        // Sembunyikan semua konten
+        const contents = document.querySelectorAll(".content");
+        contents.forEach((content) => content.classList.remove("active"));
+
+        // Reset semua tombol
+        const buttons = document.querySelectorAll(".tabs button");
+        buttons.forEach((button) => button.classList.remove("active"));
+
+        // Tampilkan konten yang dipilih dan aktifkan tombol
+        document.getElementById(section).classList.add("active");
+        event.target.classList.add("active");
+      }
     </script>
 
 </body>
