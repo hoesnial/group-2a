@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 
 /* section 1 */
+<<<<<<< HEAD
 
 /* Profile Cards Scroll Wrapper */
 .shape-section-wrapper {
@@ -8,6 +9,64 @@
   overflow: hidden; /* Hide the overflow to create scrolling effect */
   width: 100%;
   margin-top: 50px;
+=======
+.container1 {
+  padding: 20px;
+}
+.title {
+  font-size: 17px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.main-text {
+  font-size: 55px;
+  color: #00bfa5;
+  margin-bottom: 50px;
+  max-width: 700px;
+  position: relative;
+  transform: translate(320px, 0px);
+}
+.description {
+  font-size: 16px;
+  color: #666;
+  max-width: 750px;
+  position: relative;
+  transform: translate(290px, 0px);
+}
+.carousel-item2 { 
+  padding: 0px; 
+  font-family: Arial, sans-serif; 
+  display: inline-flex; 
+  margin: 5px;
+  margin-top: 80px;
+  position: relative; 
+  animation: slide 15s infinite;
+} 
+@keyframes slide { 
+  0% { 
+      right: 0; 
+  } 
+  100% { 
+      right: 1800px; 
+} 
+}
+.profile-card img { 
+  width: 300px;
+  height: 370px; 
+  border-radius: 10px; 
+  margin-bottom: -100px; 
+} 
+.profile-card h2 { 
+  margin: 0px 0; 
+  font-size: 24px; 
+  color: #ffffff; 
+} 
+.profile-card p { 
+  color: #777; 
+  font-size: 18px; 
+  margin-top: 0px;
+>>>>>>> 9854ced44c48ff53735d1123657453fb5fa5cac2
 }
 
 .shape-sections {

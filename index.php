@@ -19,6 +19,7 @@
             Tentang Kami
         </p>
     </div>
+<<<<<<< HEAD
 
     <!-- Main Text Section -->
     <div class="main-text">
@@ -292,6 +293,179 @@
 
 <script src="scroll-animation.js"></script>
 
+=======
+    <div class="scroll-container">
+    <div class="carousel-item2">
+                    <img src="state3.png" alt="Deskripsi Gambar" class="card-image" style="width: 240px;">
+                    <div class="carousel-banner" onclick="toggleExpand(this)">
+                        <h1 class="profile-name">Rian Mahendra</h1>
+                        <span class="profile-occupant">Web Development</span>
+                        <span class="profile-desc">Software Engineer di TechInno</span>
+                        <div class="extra-content">
+                        <img style="width: 18px; margin: 0px 8px;" src="images/linkedin.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/twitter.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/ig.png" alt="">
+                            <img style="width: 14px; height: 14px; margin: 0px 8px;" src="images/youtube.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item2">
+                    <img src="state3.png" alt="Deskripsi Gambar" class="card-image" style="width: 240px;">
+                    <div class="carousel-banner" onclick="toggleExpand(this)">
+                        <h1 class="profile-name">Rian Mahendra</h1>
+                        <span class="profile-occupant">Web Development</span>
+                        <span class="profile-desc">Software Engineer di TechInno</span>
+                        <div class="extra-content">
+                        <img style="width: 18px; margin: 0px 8px;" src="images/linkedin.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/twitter.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/ig.png" alt="">
+                            <img style="width: 14px; height: 14px; margin: 0px 8px;" src="images/youtube.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item2">
+                    <img src="state3.png" alt="Deskripsi Gambar" class="card-image" style="width: 240px;">
+                    <div class="carousel-banner" onclick="toggleExpand(this)">
+                        <h1 class="profile-name">Rian Mahendra</h1>
+                        <span class="profile-occupant">Web Development</span>
+                        <span class="profile-desc">Software Engineer di TechInno</span>
+                        <div class="extra-content">
+                        <img style="width: 18px; margin: 0px 8px;" src="images/linkedin.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/twitter.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/ig.png" alt="">
+                            <img style="width: 14px; height: 14px; margin: 0px 8px;" src="images/youtube.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item2">
+                    <img src="state3.png" alt="Deskripsi Gambar" class="card-image" style="width: 240px;">
+                    <div class="carousel-banner" onclick="toggleExpand(this)">
+                        <h1 class="profile-name">Rian Mahendra</h1>
+                        <span class="profile-occupant">Web Development</span>
+                        <span class="profile-desc">Software Engineer di TechInno</span>
+                        <div class="extra-content">
+                        <img style="width: 18px; margin: 0px 8px;" src="images/linkedin.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/twitter.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/ig.png" alt="">
+                            <img style="width: 14px; height: 14px; margin: 0px 8px;" src="images/youtube.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item2">
+                    <img src="state3.png" alt="Deskripsi Gambar" class="card-image" style="width: 240px;">
+                    <div class="carousel-banner" onclick="toggleExpand(this)">
+                        <h1 class="profile-name">Rian Mahendra</h1>
+                        <span class="profile-occupant">Web Development</span>
+                        <span class="profile-desc">Software Engineer di TechInno</span>
+                        <div class="extra-content">
+                        <img style="width: 18px; margin: 0px 8px;" src="images/linkedin.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/twitter.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/ig.png" alt="">
+                            <img style="width: 14px; height: 14px; margin: 0px 8px;" src="images/youtube.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item2">
+                    <img src="state3.png" alt="Deskripsi Gambar" class="card-image" style="width: 240px;">
+                    <div class="carousel-banner" onclick="toggleExpand(this)">
+                        <h1 class="profile-name">Rian Mahendra</h1>
+                        <span class="profile-occupant">Web Development</span>
+                        <span class="profile-desc">Software Engineer di TechInno</span>
+                        <div class="extra-content">
+                        <img style="width: 18px; margin: 0px 8px;" src="images/linkedin.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/twitter.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/ig.png" alt="">
+                            <img style="width: 14px; height: 14px; margin: 0px 8px;" src="images/youtube.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item2">
+                    <img src="state3.png" alt="Deskripsi Gambar" class="card-image" style="width: 240px;">
+                    <div class="carousel-banner" onclick="toggleExpand(this)">
+                        <h1 class="profile-name">Rian Mahendra</h1>
+                        <span class="profile-occupant">Web Development</span>
+                        <span class="profile-desc">Software Engineer di TechInno</span>
+                        <div class="extra-content">
+                        <img style="width: 18px; margin: 0px 8px;" src="images/linkedin.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/twitter.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/ig.png" alt="">
+                            <img style="width: 14px; height: 14px; margin: 0px 8px;" src="images/youtube.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item2">
+                    <img src="state3.png" alt="Deskripsi Gambar" class="card-image" style="width: 240px;">
+                    <div class="carousel-banner" onclick="toggleExpand(this)">
+                        <h1 class="profile-name">Rian Mahendra</h1>
+                        <span class="profile-occupant">Web Development</span>
+                        <span class="profile-desc">Software Engineer di TechInno</span>
+                        <div class="extra-content">
+                        <img style="width: 18px; margin: 0px 8px;" src="images/linkedin.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/twitter.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/ig.png" alt="">
+                            <img style="width: 14px; height: 14px; margin: 0px 8px;" src="images/youtube.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item2">
+                    <img src="state3.png" alt="Deskripsi Gambar" class="card-image" style="width: 240px;">
+                    <div class="carousel-banner" onclick="toggleExpand(this)">
+                        <h1 class="profile-name">Rian Mahendra</h1>
+                        <span class="profile-occupant">Web Development</span>
+                        <span class="profile-desc">Software Engineer di TechInno</span>
+                        <div class="extra-content">
+                        <img style="width: 18px; margin: 0px 8px;" src="images/linkedin.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/twitter.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/ig.png" alt="">
+                            <img style="width: 14px; height: 14px; margin: 0px 8px;" src="images/youtube.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item2">
+                    <img src="state3.png" alt="Deskripsi Gambar" class="card-image" style="width: 240px;">
+                    <div class="carousel-banner" onclick="toggleExpand(this)">
+                        <h1 class="profile-name">Rian Mahendra</h1>
+                        <span class="profile-occupant">Web Development</span>
+                        <span class="profile-desc">Software Engineer di TechInno</span>
+                        <div class="extra-content">
+                        <img style="width: 18px; margin: 0px 8px;" src="images/linkedin.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/twitter.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/ig.png" alt="">
+                            <img style="width: 14px; height: 14px; margin: 0px 8px;" src="images/youtube.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item2">
+                    <img src="state3.png" alt="Deskripsi Gambar" class="card-image" style="width: 240px;">
+                    <div class="carousel-banner" onclick="toggleExpand(this)">
+                        <h1 class="profile-name">Rian Mahendra</h1>
+                        <span class="profile-occupant">Web Development</span>
+                        <span class="profile-desc">Software Engineer di TechInno</span>
+                        <div class="extra-content">
+                        <img style="width: 18px; margin: 0px 8px;" src="images/linkedin.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/twitter.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/ig.png" alt="">
+                            <img style="width: 14px; height: 14px; margin: 0px 8px;" src="images/youtube.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item2">
+                    <img src="state3.png" alt="Deskripsi Gambar" class="card-image" style="width: 240px;">
+                    <div class="carousel-banner" onclick="toggleExpand(this)">
+                        <h1 class="profile-name">Rian Mahendra</h1>
+                        <span class="profile-occupant">Web Development</span>
+                        <span class="profile-desc">Software Engineer di TechInno</span>
+                        <div class="extra-content">
+                        <img style="width: 18px; margin: 0px 8px;" src="images/linkedin.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/twitter.png" alt="">
+                            <img style="width: 18px; margin: 0px 8px;" src="images/ig.png" alt="">
+                            <img style="width: 14px; height: 14px; margin: 0px 8px;" src="images/youtube.png" alt="">
+                        </div>
+                    </div>
+                </div>
+    </div>
+                
+>>>>>>> 9854ced44c48ff53735d1123657453fb5fa5cac2
     <!-- section 2 -->
     <section class="toggle-section">
         <div class="image-container">
