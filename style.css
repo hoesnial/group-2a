@@ -137,78 +137,147 @@
 }
 
 /* section 2 */
+/* section 2 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styling untuk container utama */
 .toggle-section {
-  position: relative;
-  transform: translate(250px, 110px);
-  width: 750px;
-  height: 350px;
+  background: var(--Green-500, #0c9);
+  border-radius: 24px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 2rem;
-  padding: 2rem;
-  background-color: #1abc9c;
-  color: white;
-  border-radius: 15px;
+  align-items: flex-start;
+  gap: 50px;
+  padding: 80px;
+  width: 80%;
+  max-width: 1200px;
+  box-sizing: border-box;
+  margin: 80px auto;
 }
 
-/* Gambar */
+/* Gambar di sebelah kiri */
 .image-container img {
-  width: 200px;
-  height: 300px;
-  border-radius: 15px;
-  object-fit: cover;
+  width: 300px;
+  border-radius: 12px;
+  align-self: stretch;
 }
 
-/* Kontainer teks */
+/* Konten di sebelah kanan */
 .content-container {
-  max-width: 600px;
-}
-
-/* Heading */
-.content-container h2 {
-  font-size: 1.8rem;
-  margin-bottom: 1rem;
-}
-
-/* Toggle Switch */
-.toggle-switch {
   display: flex;
-  gap: 0.5rem;
-  margin-bottom: 1rem;
+  width: 710px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+/* Judul */
+h2 {
+  color: var(--White, #fff);
+  font-family: Nunito;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0.3px;
+}
+
+/* Deskripsi */
+p#description {
+  color: var(--White, #fff);
+  font-family: Nunito;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0.3px;
+}
+
+/* Tombol toggle */
+.toggle-switch {
+  display: inline-flex;
+  padding: 10px;
+  align-items: flex-start;
+  gap: 20px;
 }
 
 .toggle-switch button {
-  flex: 1;
-  padding: 0.5rem 1rem;
-  font-size: 1rem;
-  border: none;
-  border-radius: 25px;
+  background-color: #f1f1f1;
+  border: 2px solid #ddd;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 30px;
   cursor: pointer;
-  background-color: white;
-  color: #1abc9c;
-  transition: all 0.3s ease-in-out;
+  transition: background-color 0.3s;
 }
 
 .toggle-switch button.active {
-  background-color: #16a085;
-  color: white;
+  border-radius: 100px;
+  background: var(--Green-500, #0c9);
 }
 
-/* Konten Grid */
-.grid2 {
+.toggle-switch button:hover {
+  background-color: #f0f0f0;
+}
+
+/* Grid untuk card */
+#content-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1rem;
+  gap: 15px;
+  margin-top: 20px;
 }
 
+/* Styling untuk card */
 .card2 {
-  background-color: white;
-  color: #1abc9c;
-  padding: 1rem;
-  border-radius: 10px;
-  text-align: center;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  padding: 24px 19px;
+  align-items: center;
+  gap: 17px;
+  flex: 1 0 0;
+  align-self: stretch;
+  border-radius: 8px;
+  background: var(--White, #fff);
+  transition: transform 0.3s;
+}
+
+.card-icon {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.card-text {
+  flex: 1;
+}
+
+.card2:hover {
+  transform: scale(1.05);
+}
+
+/* Responsivitas untuk ukuran kecil */
+@media (max-width: 768px) {
+  .toggle-section {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .content-container {
+    max-width: 100%;
+  }
+
+  .image-container img {
+    max-width: 250px;
+  }
+
+  #content-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* section 3 */

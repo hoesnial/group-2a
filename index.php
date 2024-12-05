@@ -14,21 +14,21 @@
 <!-- section 1 -->
 <div class="section-1" style="display: flex; flex-direction: column; gap: 0px;">
     <!-- Title Section -->
-    <div class="title">
+    <div >
         <p style="font-family: Nunito, normal; font-weight: 700; font-size: 24px; color:#111827; text-align: center; letter-spacing: 0.3px; line-height: 28px; margin-bottom: 20px; margin-top:20px;">
             Tentang Kami
         </p>
     </div>
 
     <!-- Main Text Section -->
-    <div class="main-text">
+    <div >
         <p style="font-family: Nunito, sans-serif; font-weight: 600; font-size: 80px; color: #00CC99; text-align: center; line-height: 88px; margin-bottom: 20px;">
             Luarsekolah untuk Masa <br> Depan yang Lebih Baik
         </p>
     </div>
 
     <!-- Description Section -->
-    <div class="description">
+    <div >
         <p style="font-family: Nunito, sans-serif; font-weight: 500; font-size: 20px; color: #4B5563; text-align: center; line-height: 30px; margin-bottom: 30px;">
             Platform edukasi vokasi dan pengembangan diri berbasis online yang mendampingi generasi muda <br> Indonesia untuk terus berkembang #sampaijadibisa
         </p>
@@ -293,87 +293,101 @@
 <script src="scroll-animation.js"></script>
 
     <!-- section 2 -->
-    <section class="toggle-section">
-        <div class="image-container">
-            <img id="image" src="https://img.freepik.com/premium-photo/man-having-headache-while-using-laptop_13339-297315.jpg" alt="Masalah">
+<section class="toggle-section">
+    <div class="image-container">
+        <img id="image" src="images/masalah.png" alt="Masalah">
+    </div>
+    <div class="content-container">
+        <h2>Apa Tantangan yang Kita Hadapi?</h2>
+        <div class="toggle-switch">
+            <button id="problemBtn" class="active">Masalah</button>
+            <button id="solutionBtn">Solusi</button>
         </div>
-        <div class="content-container">
-            <h2>Apa Tantangan yang Kita Hadapi?</h2>
-            <div class="toggle-switch">
-                <button id="problemBtn" class="active">Masalah</button>
-                <button id="solutionBtn">Solusi</button>
-            </div>
-            <p id="description">
-                Pendidikan formal sering kali nggak cukup buat mempersiapkan kita ke dunia kerja. Banyak yang merasa:
-            </p>
-            <div id="content-grid" class="grid2">
-                <!-- Konten "Masalah" -->
-                <div class="card2">Skill dipelajari di Kampus Tidak Sesuai Dunia Kerja</div>
-                <div class="card2">Bingung Harus Mulai dari Mana Setelah Lulus</div>
-                <div class="card2">Salah Jurusan & Kesulitan Mengembangkan Diri</div>
-                <div class="card2">Biaya Belajar yang Tinggi</div>
-            </div>
+        <p id="description">
+            Pendidikan formal sering kali nggak cukup buat mempersiapkan kita ke dunia kerja. Banyak yang merasa:
+        </p>
+        <div id="content-grid" class="grid2">
+            <!-- Konten "Masalah" -->
+            <div class="card2">Skill dipelajari di Kampus Tidak Sesuai Dunia Kerja</div>
+            <div class="card2">Bingung Harus Mulai dari Mana Setelah Lulus</div>
+            <div class="card2">Salah Jurusan & Kesulitan Mengembangkan Diri</div>
+            <div class="card2">Biaya Belajar yang Tinggi</div>
         </div>
-    </section>
-    <script>
-        // Ambil elemen yang dibutuhkan
-const problemBtn = document.getElementById("problemBtn");
-const solutionBtn = document.getElementById("solutionBtn");
-const description = document.getElementById("description");
-const contentGrid = document.getElementById("content-grid");
-const image = document.getElementById("image");
+    </div>
+</section>
 
-// Konten untuk "Masalah" dan "Solusi"
-const problemContent = [
-    "Skill dipelajari di Kampus Tidak Sesuai Dunia Kerja",
-    "Bingung Harus Mulai dari Mana Setelah Lulus",
-    "Salah Jurusan & Kesulitan Mengembangkan Diri",
-    "Biaya Belajar yang Tinggi",
-];
+<script>
+    // Ambil elemen yang dibutuhkan
+    const problemBtn = document.getElementById("problemBtn");
+    const solutionBtn = document.getElementById("solutionBtn");
+    const description = document.getElementById("description");
+    const contentGrid = document.getElementById("content-grid");
+    const image = document.getElementById("image");
 
-const solutionContent = [
-    "Kelas Praktis dan Sesuai Kebutuhan Industri",
-    "Panduan Karier dari Mentor Ahli",
-    "Belajar Skill Sesuai Minatmu",
-    "Harga Terjangkau dengan Kualitas Terjaga",
-];
+    // Konten untuk "Masalah" dan "Solusi"
+    const problemContent = [
+        { text: "Skill dipelajari di Kampus Tidak Sesuai Dunia Kerja", icon: "path/to/problem_icon1.png" },
+        { text: "Bingung Harus Mulai dari Mana Setelah Lulus", icon: "path/to/problem_icon2.png" },
+        { text: "Salah Jurusan & Kesulitan Mengembangkan Diri", icon: "path/to/problem_icon3.png" },
+        { text: "Biaya Belajar yang Tinggi", icon: "path/to/problem_icon4.png" },
+    ];
 
-// Event listener untuk tombol "Masalah"
-problemBtn.addEventListener("click", () => {
-    problemBtn.classList.add("active");
-    solutionBtn.classList.remove("active");
+    const solutionContent = [
+        { text: "Kelas Praktis dan Sesuai Kebutuhan Industri", icon: "path/to/solution_icon1.png" },
+        { text: "Panduan Karier dari Mentor Ahli", icon: "path/to/solution_icon2.png" },
+        { text: "Belajar Skill Sesuai Minatmu", icon: "path/to/solution_icon3.png" },
+        { text: "Harga Terjangkau dengan Kualitas Terjaga", icon: "path/to/solution_icon4.png" },
+    ];
 
-    // Ubah deskripsi dan konten
-    description.textContent =
-        "Pendidikan formal sering kali nggak cukup buat mempersiapkan kita ke dunia kerja. Banyak yang merasa:";
-    image.src = "https://img.freepik.com/premium-photo/man-having-headache-while-using-laptop_13339-297315.jpg";
-    updateGrid(problemContent);
-});
+    // Event listener untuk tombol "Masalah"
+    problemBtn.addEventListener("click", () => {
+        problemBtn.classList.add("active");
+        solutionBtn.classList.remove("active");
 
-// Event listener untuk tombol "Solusi"
-solutionBtn.addEventListener("click", () => {
-    solutionBtn.classList.add("active");
-    problemBtn.classList.remove("active");
-
-    // Ubah deskripsi dan konten
-    description.textContent =
-        "Kami hadir untuk memberikan solusi nyata yang mudah diakses semua orang:";
-    image.src = "https://img.freepik.com/premium-photo/man-having-headache-while-using-laptop_13339-297315.jpg";
-    updateGrid(solutionContent);
-});
-
-// Fungsi untuk memperbarui grid
-function updateGrid(items) {
-    contentGrid.innerHTML = ""; // Kosongkan grid
-    items.forEach((item) => {
-        const card = document.createElement("div");
-        card.className = "card2";
-        card.textContent = item;
-        contentGrid.appendChild(card);
+        // Ubah deskripsi dan konten
+        description.textContent =
+            "Pendidikan formal sering kali nggak cukup buat mempersiapkan kita ke dunia kerja. Banyak yang merasa:";
+        image.src = "images/masalah.png";
+        updateGrid(problemContent);
     });
-}
 
-    </script>
+    // Event listener untuk tombol "Solusi"
+    solutionBtn.addEventListener("click", () => {
+        solutionBtn.classList.add("active");
+        problemBtn.classList.remove("active");
+
+        // Ubah deskripsi dan konten
+        description.textContent =
+            "Kami hadir untuk memberikan solusi nyata yang mudah diakses semua orang:";
+        image.src = "images/masalah.png";
+        updateGrid(solutionContent);
+    });
+
+    // Fungsi untuk memperbarui grid
+    function updateGrid(items) {
+        contentGrid.innerHTML = ""; // Kosongkan grid
+        items.forEach((item) => {
+            const card = document.createElement("div");
+            card.className = "card2";
+
+            // Membuat elemen gambar ikon untuk setiap card
+            const icon = document.createElement("img");
+            icon.src = item.icon; // Path gambar yang berbeda untuk setiap item
+            icon.className = "card-icon"; // Kelas untuk styling gambar
+
+            // Menambahkan gambar dan teks ke dalam card
+            const text = document.createElement("div");
+            text.className = "card-text";
+            text.textContent = item.text;
+
+            card.appendChild(icon);
+            card.appendChild(text);
+
+            contentGrid.appendChild(card);
+        });
+    }
+</script>
+
 
 <!-- section 3 -->
 <section class="about-section">
