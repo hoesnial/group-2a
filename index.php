@@ -414,8 +414,162 @@
         </div>
     </section>
 
+    <!-- Section 4 -->
+    <div class="container">
+      <!-- Tab Buttons -->
+      <div class="tabs">
+        <button class="active" onclick="showContent('visi')">Visi</button>
+        <button onclick="showContent('misi')">Misi</button>
+        <button onclick="showContent('nilai')">Nilai</button>
+      </div>
 
+      <!-- Content Sections -->
+      <div id="visi" class="content active">
+        <div class="content-text">
+          <h2 style="color: var(--Gray-900, #111827);
+font-family: Nunito;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 34px; /* 141.667% */
+letter-spacing: 0.3px;">Visi Kami</h2>
+          <p style="color: var(--Gray-500, #6D7280);
+font-family: Nunito;
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: 50px; /* 125% */
+letter-spacing: 0.3px;align-self: stretch;" >
+            "Membawa generasi muda Indonesia menjadi kompeten dan relevan di
+            dunia kerja."
+          </p>
+        </div>
+        <div class="content-image">
+          <img src="images/visi.png" alt="Visi Image" />
+        </div>
+      </div>
 
+      <div id="misi" class="content">
+        <div class="content-text">
+          <h2 style="color: var(--Gray-900, #111827);
+font-family: Nunito;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 34px; /* 141.667% */
+letter-spacing: 0.3px;">Misi Kami</h2>
+          <ul>
+            <li style="color: var(--Gray-900, #111827);
+font-family: Nunito;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 30px; /* 150% */
+letter-spacing: 0.3px;">Menyediakan akses edukasi vokasi yang mudah dan terjangkau.</li>
+            <li style="color: var(--Gray-900, #111827);
+font-family: Nunito;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 30px; /* 150% */
+letter-spacing: 0.3px;">
+              Menutup skill gap generasi muda Indonesia dengan industri modern.
+            </li>
+            <li style="color: var(--Gray-900, #111827);
+font-family: Nunito;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 30px; /* 150% */
+letter-spacing: 0.3px;">Menghadirkan mentor profesional untuk membimbing langsung.</li>
+          </ul>
+        </div>
+        <div class="content-image">
+          <img src="images/misi.png" alt="Misi Image" />
+        </div>
+      </div>
+
+      <div id="nilai" class="content">
+        <div class="content-text">
+          <h2 style="color: var(--Gray-900, #111827);
+font-family: Nunito;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 34px; /* 141.667% */
+letter-spacing: 0.3px;">Nilai Kami</h2>
+          <ul>
+            <li style="color: var(--Gray-500, #6D7280);
+font-family: Nunito;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+letter-spacing: 0.3px;">
+              <strong style="color: var(--Gray-900, #111827);
+font-family: Nunito;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 30px; /* 150% */
+letter-spacing: 0.3px;">Berani Memulai:</strong> Menyediakan peluang untuk belajar
+              dan berkembang.
+            </li>
+            <li style="color: var(--Gray-500, #6D7280);
+font-family: Nunito;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+letter-spacing: 0.3px;">
+              <strong style="color: var(--Gray-900, #111827);
+font-family: Nunito;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 30px; /* 150% */
+letter-spacing: 0.3px;" >Relevan dengan Zaman:</strong> Selalu adaptif dengan
+              kebutuhan dan tren dunia kerja.
+            </li>
+            <li style="color: var(--Gray-500, #6D7280);
+font-family: Nunito;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+letter-spacing: 0.3px;">
+              <strong style="color: var(--Gray-900, #111827);
+font-family: Nunito;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 30px; /* 150% */
+letter-spacing: 0.3px;" >Terbuka dan Tulus:</strong> Mendorong kolaborasi dan
+              keterbukaan dalam semua aspek.
+            </li>
+          </ul>
+        </div>
+        <div class="content-image">
+          <img src="images/nilai.png" alt="Nilai Image" />
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function showContent(section) {
+        // Sembunyikan semua konten
+        const contents = document.querySelectorAll(".content");
+        contents.forEach((content) => content.classList.remove("active"));
+
+        // Reset semua tombol
+        const buttons = document.querySelectorAll(".tabs button");
+        buttons.forEach((button) => button.classList.remove("active"));
+
+        // Tampilkan konten yang dipilih dan aktifkan tombol
+        document.getElementById(section).classList.add("active");
+        event.target.classList.add("active");
+      }
+    </script>
 
     <!-- Section 5 -->
      <div class="section-5-container">

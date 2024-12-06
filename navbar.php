@@ -105,7 +105,7 @@ body {
 .search-button {
   position: absolute;
   top: 50%;
-  right: 3px;
+  right: 14px;
   transform: translateY(-50%);
   border: none;
   /*Membuattombolbulat*/

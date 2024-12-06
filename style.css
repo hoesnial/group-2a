@@ -137,7 +137,6 @@
 }
 
 /* section 2 */
-/* section 2 */
 * {
   margin: 0;
   padding: 0;
@@ -398,7 +397,10 @@ p#description {
 }
 
 .main-container {
-  background-color: #00cc99;
+  background-image: url("images/Variant6.png"); /* Ganti dengan path gambar Anda */
+  background-size: cover; /* Menyesuaikan gambar agar menutupi seluruh container */
+  background-position: center center; /* Menyusun gambar agar berada di tengah */
+  background-repeat: no-repeat; /* Menghindari pengulangan gambar */
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
@@ -564,21 +566,6 @@ p#description {
   width: 240px;
 }
 
-.footer {
-  display: flex;
-  padding: 160px 160px;
-  flex-direction: column;
-}
-
-ul {
-  min-width: max-content;
-  list-style-type: none;
-}
-
-li {
-  margin-bottom: 8px;
-}
-
 .carousel-banner {
   position: absolute;
   bottom: 0;
@@ -610,19 +597,6 @@ li {
 }
 
 /* section 10-13 */
-h2 {
-  color: #fff;
-}
-
-h3 {
-  color: #00cc99;
-}
-
-p {
-  font-family: "Nunito", sans-serif;
-  font-size: 14px;
-  color: #ffffff;
-}
 
 /* Buttons */
 .btn-primary,
@@ -948,25 +922,6 @@ p {
 /* css Section 4 5 7 */
 
 /* Section 5 */
-
-a,
-button,
-input,
-select,
-h1,
-h2,
-h3,
-h4,
-h5,
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  border: none;
-  text-decoration: none;
-  background: none;
-  -webkit-font-smoothing: antialiased;
-}
 
 menu,
 ol,
@@ -1688,96 +1643,13 @@ ul {
   overflow: visible;
 }
 
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f5f5f5;
-}
-
-.container {
-  max-width: 1200px;
-  margin: 40px auto;
-  padding: 20px;
-  background: #ffffff;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.tabs {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
-}
-
-.tabs button {
-  padding: 10px 20px;
-  margin: 0 5px;
-  border: none;
-  border-radius: 5px;
-  background-color: #00cc99;
-  color: white;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.tabs button:hover {
-  background-color: #00cc99;
-}
-
-.tabs button.active {
-  background-color: #00cc99;
-}
-
-.content {
-  display: none;
-  text-align: left;
-}
-
-.content.active {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 20px;
-}
-
-.content-text {
-  flex: 1;
-}
-
-h2 {
-  color: #333;
-  margin-bottom: 15px;
-}
-
-p,
-ul {
-  color: #555;
-  line-height: 1.6;
-}
-
-ul {
-  padding-left: 20px;
-}
-
-li {
-  margin-bottom: 10px;
-}
-
-.content-image img {
-  max-width: 400px;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
 /* Mengatur container untuk section 5 */
 .section-5-container {
   display: flex;
   justify-content: center; /* Mengatur konten di tengah secara horizontal */
   align-items: center; /* Mengatur konten di tengah secara vertikal */
   max-width: 1200px; /* Maksimal lebar container */
-  margin: 0 auto; /* Mengatur margin otomatis untuk menempatkan di tengah */
+  margin: 40px auto; /* Mengatur margin otomatis untuk menempatkan di tengah */
   padding: 20px; /* Memberikan padding */
 }
 
@@ -1789,4 +1661,81 @@ li {
   max-width: 1200px; /* Maksimal lebar container */
   margin: 0 auto; /* Mengatur margin otomatis untuk menempatkan di tengah */
   padding: 20px; /* Memberikan padding */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  gap: 10px;
+}
+
+.tabs button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 25px;
+  background: linear-gradient(135deg, #00cc99);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+.tabs button:hover {
+  background: linear-gradient(135deg, #00cc99);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.tabs button.active {
+  background: linear-gradient(135deg, #00cc99, #00cc99);
+  transform: scale(1.05);
+}
+
+.content {
+  display: none;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.content.active {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.content-text {
+  flex: 1;
+}
+
+.content-image img {
+  max-width: 484px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .content.active {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .content-image img {
+    margin: 20px 0;
+  }
 }
