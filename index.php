@@ -789,9 +789,10 @@ letter-spacing: 0.3px;" >Terbuka dan Tulus:</strong> Mendorong kolaborasi dan
   </div>
 
 <!-- section 8 -->
-<div class="main-container">
-        <div style="display: flex; flex-direction: row; overflow-x: hidden; padding-top: 40px; padding-left:60px; padding-bottom: 40px;">
-            <div class="text-container">
+<section style="background-image: url('images/image2.png'); background-size auto: cover; background-position : center; background-repeat: no-repeat;">
+  <div class="main-container">
+    <div style="display: flex; flex-direction: row; overflow-x: hidden; padding-top: 40px; padding-left:60px; padding-bottom: 40px;">
+      <div class="text-container">
                 <h2 style=" font-family: Nunito, sans-serif;margin-right: 20px; margin-top: 10px; color: white;   font-weight: 700;
                 letter-spacing: 0.3px; font-size: 28px;" >Belajar dari Praktisi <br>Terbaik di Bidangnya</h2>
                 <p style="  font-weight: 600; font-size: 14px; line-height: 24px; letter-spacing: 0.3px; color: white;">Setiap perjalanan belajar adalah cerita yang unik. Luarsekolah,
@@ -839,8 +840,8 @@ letter-spacing: 0.3px;" >Terbuka dan Tulus:</strong> Mendorong kolaborasi dan
                             <img style="width: 18px; margin: 0px 8px;" src="images/twitter.png" alt="">
                             <img style="width: 18px; margin: 0px 8px;" src="images/ig.png" alt="">
                             <img style="width: 14px; height: 14px; margin: 0px 8px;" src="images/youtube.png" alt="">
+                          </div>
                         </div>
-                    </div>
                 </div>
                 <div class="carousel-item">
                     <img src="state5.png" alt="Deskripsi Gambar" class="card-image" style="width: 240px;">
@@ -863,8 +864,8 @@ letter-spacing: 0.3px;" >Terbuka dan Tulus:</strong> Mendorong kolaborasi dan
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_2028_93)">
                         <path d="M15 6.00098L9 12.001L15 18.001" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" />
-                    </g>
-                    <defs>
+                      </g>
+                      <defs>
                         <clipPath id="clip0_2028_93">
                             <rect width="24" height="24" fill="white" transform="translate(0 0.000976562)" />
                         </clipPath>
@@ -878,7 +879,7 @@ letter-spacing: 0.3px;" >Terbuka dan Tulus:</strong> Mendorong kolaborasi dan
                     </g>
                     <defs>
                         <clipPath id="clip0_2028_97">
-                            <rect width="24" height="24" fill="white" transform="translate(0 0.000976562)" />
+                          <rect width="24" height="24" fill="white" transform="translate(0 0.000976562)" />
                         </clipPath>
                     </defs>
                 </svg>
@@ -887,12 +888,12 @@ letter-spacing: 0.3px;" >Terbuka dan Tulus:</strong> Mendorong kolaborasi dan
     </div>
 
     <div class="persons-container">
-        <div class="" style="display: flex; flex-direction: row; justify-content: space-between; align-items: center;">
+      <div class="" style="display: flex; flex-direction: row; justify-content: space-between; align-items: center;">
             <div class="" style="flex-basis: 40%; font-family: Nunito, sans-seriff; font-weight: bold; font-size: 36px; color: #00CC99; width: 100%; text-align: center;">
                 <h5 style="text-align: left; margin: 0px;">Orang-Orang Hebat di Balik Luarsekolah</h5>
             </div>
             <div class="" style="flex-basis: 55%; font-family: Nunito, sans-seriff; font-weight: bold; font-size: 16px; color: #4B5563; width: 100%; text-align: center;">
-                <p style="text-align: left;">Kami bangga memiliki tim yang berdedikasi untuk memberikan pengalaman belajar terbaik bagi semua pengguna. Kenalan lebih dekat dengan tim kami yang selalu ada di balik layar kesuksesan Luarsekolah.</p>
+              <p style="text-align: left;">Kami bangga memiliki tim yang berdedikasi untuk memberikan pengalaman belajar terbaik bagi semua pengguna. Kenalan lebih dekat dengan tim kami yang selalu ada di balik layar kesuksesan Luarsekolah.</p>
             </div>
         </div>
 
@@ -1013,8 +1014,8 @@ letter-spacing: 0.3px;" >Terbuka dan Tulus:</strong> Mendorong kolaborasi dan
             <div class="carousel-person-item">
                 <img src="state3.png" alt="Deskripsi Gambar" class="card-image" style="width: 240px;">
                 <div class="carousel-banner" onclick="toggleExpand(this)">
-                    <h1 class="profile-name">Rian Mahendra</h1>
-                    <span class="profile-occupant">Web Development</span>
+                  <h1 class="profile-name">Rian Mahendra</h1>
+                  <span class="profile-occupant">Web Development</span>
                     <span class="profile-desc">Software Engineer di TechInno</span>
                    <div class="extra-content">
                    <img style="width: 18px; margin: 0px 8px;" src="images/linkedin.png" alt="">
@@ -1068,6 +1069,7 @@ letter-spacing: 0.3px;" >Terbuka dan Tulus:</strong> Mendorong kolaborasi dan
             </div>
         </div>
     </div>
+  </section>
     
 <!-- section 10, 11, 12, 13 -->
     <section class="faq">
