@@ -12,6 +12,10 @@
 
 <?php include('navbar.php'); ?>
 
+<!--pattern -->
+<img class="pattern-1-icon" alt="" src="images/Pattern6.png">
+<img class="pattern-2-icon" alt="" src="images/Pattern5.png">
+
 <!-- Untuk section lainnya -->
 
 <section class="collaboration">
