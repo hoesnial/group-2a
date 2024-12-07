@@ -220,3 +220,27 @@
 .cta-button:hover {
   background-color: #ffffff;
 }
+
+.pattern-1-icon {
+    width: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 140px;
+    left: 920px;
+    max-width: 9%;
+    overflow: hidden;
+    height: 100px;
+    flex-shrink: 0;
+    }
+
+.pattern-2-icon {
+    width: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 249px;
+    right: 910px;
+    max-width: 5%;
+    overflow: hidden;
+    height: 60px;
+    flex-shrink: 0;
+    }
