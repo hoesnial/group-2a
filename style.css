@@ -1,7 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 
 /* section 1 */
+.pattern-1-icon {
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 105px;
+  left: 1040px;
+  max-width: 9%;
+  overflow: hidden;
+  height: 100px;
+  flex-shrink: 0;
+}
 
+.pattern-2-icon {
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 219px;
+  right: 1060px;
+  max-width: 5%;
+  overflow: hidden;
+  height: 60px;
+  flex-shrink: 0;
+}
 /* Profile Cards Scroll Wrapper */
 .shape-section-wrapper {
   display: flex;
@@ -765,7 +787,7 @@ p#description {
   position: relative;
 }
 .ayo-terhubung {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   color: var(--green-500, #00cc99);
   text-align: left;
   /* font-family: "Poppins-SemiBold", sans-serif; */
@@ -777,7 +799,7 @@ p#description {
   align-self: stretch;
 }
 .punya-pertanyaan {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   color: var(--gray-600, #4b5563);
   text-align: left;
   /* font-family: "Poppins-Regular", sans-serif; */
@@ -826,7 +848,7 @@ p#description {
   overflow: hidden;
 }
 .nama-depan {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   color: var(--gray-400, #9ca3af);
   text-align: left;
   /* font-family: "Poppins-Regular", sans-serif; */
@@ -854,7 +876,7 @@ p#description {
   overflow: hidden;
 }
 .nama-belakang {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   color: var(--gray-400, #9ca3af);
   text-align: left;
   /* font-family: "Poppins-Regular", sans-serif; */
@@ -890,7 +912,7 @@ p#description {
   overflow: visible;
 }
 .email {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   color: var(--gray-400, #9ca3af);
   text-align: left;
   /* font-family: "Poppins-Regular", sans-serif; */
@@ -929,7 +951,7 @@ p#description {
   overflow: hidden;
 }
 ._62 {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   color: var(--gray-900, #111827);
   text-align: left;
   /* font-family: "Poppins-Regular", sans-serif; */
@@ -959,7 +981,7 @@ p#description {
   overflow: hidden;
 }
 .nomor-telepon {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   color: var(--gray-400, #9ca3af);
   text-align: left;
   /* font-family: "Poppins-Regular", sans-serif; */
@@ -987,7 +1009,7 @@ p#description {
   overflow: hidden;
 }
 .bagaimana-kami-dapat-membantu-anda {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   color: var(--gray-400, #9ca3af);
   text-align: left;
   /* font-family: "Poppins-Regular", sans-serif; */
@@ -1012,7 +1034,7 @@ p#description {
   overflow: hidden;
 }
 .kirim {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   color: var(--white, #ffffff);
   text-align: left;
   /* font-family: "Poppins-SemiBold", sans-serif; */
@@ -1056,7 +1078,7 @@ p#description {
   position: relative;
 }
 .kantor-kami {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   color: var(--gray-900, #111827);
   text-align: left;
   /* font-family: "Poppins-SemiBold", sans-serif; */
@@ -1068,7 +1090,7 @@ p#description {
   align-self: stretch;
 }
 .centennial-tower {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   color: var(--gray-600, #4b5563);
   text-align: left;
   /* font-family: "Poppins-Regular", sans-serif; */
@@ -2259,7 +2281,7 @@ ul {
   position: relative;
 }
 .yuk-mulai {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   color: var(--white, #ffffff);
   text-align: center;
   /* font-family: "Poppins-SemiBold", sans-serif; */
@@ -2271,7 +2293,7 @@ ul {
   align-self: stretch;
 }
 .jangan-tunggu {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   color: var(--white, #ffffff);
   text-align: center;
   /* font-family: "Poppins-Regular", sans-serif; */
@@ -2310,7 +2332,7 @@ ul {
 div[contenteditable="true"]:empty:before {
   content: attr(data-placeholder); /* Gunakan teks dari data-placeholder */
   color: #aaa; /* Warna teks placeholder */
-  font-family: 'Nunito', sans-serif; /* Opsional: membuat teks miring */
+  font-family: "Nunito", sans-serif; /* Opsional: membuat teks miring */
 }
 
 div[contenteditable="true"] {

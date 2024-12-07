@@ -9,10 +9,19 @@
 </head>
 <body>
 
+<img class="pattern-1-icon" alt="" src="images/Pattern6.png">
+<img class="pattern-2-icon" alt="" src="images/Pattern5.png">
+
+
 <?php include('navbar.php'); ?>
 
 <!-- section 1 -->
-<div class="section-1" style="display: flex; flex-direction: column; gap: 0px;">
+<div class="section-1" style="    font-family: 'Nunito', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 50px;
+    padding: 0;
+    position: relative;">
     <!-- Title Section -->
     <div >
         <p style="font-family: Nunito, normal; font-weight: 700; font-size: 24px; color:#111827; text-align: center; letter-spacing: 0.3px; line-height: 28px; margin-bottom: 20px; margin-top:20px;">
@@ -22,9 +31,14 @@
 
     <!-- Main Text Section -->
     <div >
-        <p style="font-family: Nunito, sans-serif; font-weight: 600; font-size: 80px; color: #00CC99; text-align: center; line-height: 88px; margin-bottom: 20px;">
+        <h2 style="   margin: 22px 200px;
+    font-size: 64px;
+    color: #00CC99;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 1;">
             Luarsekolah untuk Masa <br> Depan yang Lebih Baik
-        </p>
+        </h2>
     </div>
 
     <!-- Description Section -->
@@ -292,6 +306,31 @@
 
 <script src="scroll-animation.js"></script>
 
+<!-- section 3 -->
+<section class="about-section">
+        <div class="about">
+            <h2>Cerita di Balik Luarsekolah</h2>
+            <p>
+                Di Luarsekolah, kami menyediakan mentor ahli dan program belajar yang fleksibel sejak 2019,
+                membantu lebih dari 250.000 user berkembang kapan pun dan di mana pun.
+            </p>
+            <div class="stats">
+                <div>
+                    <h3>2019</h3>
+                    <p>Didirikan</p>
+                </div>
+                <div>
+                    <h3>250.000+</h3>
+                    <p>Pengguna</p>
+                </div>
+            </div>
+        </div>
+        <div class="images">
+            <img src="https://tips4teamwork.com/wp-content/uploads/2020/04/office-teamwork.jpg" alt="Tim bekerja sama" class="image1">
+            <img src="https://i1.wp.com/hr-gazette.com/wp-content/uploads/2018/10/bigstock-196164373.jpg?resize=1024%2C594&ssl=1" alt="Kolaborasi tim" class="image2">
+        </div>
+    </section>
+
     <!-- section 2 -->
 <section class="toggle-section">
     <div class="image-container">
@@ -388,31 +427,6 @@
     }
 </script>
 
-
-<!-- section 3 -->
-<section class="about-section">
-        <div class="about">
-            <h2>Cerita di Balik Luarsekolah</h2>
-            <p>
-                Di Luarsekolah, kami menyediakan mentor ahli dan program belajar yang fleksibel sejak 2019,
-                membantu lebih dari 250.000 user berkembang kapan pun dan di mana pun.
-            </p>
-            <div class="stats">
-                <div>
-                    <h3>2019</h3>
-                    <p>Didirikan</p>
-                </div>
-                <div>
-                    <h3>250.000+</h3>
-                    <p>Pengguna</p>
-                </div>
-            </div>
-        </div>
-        <div class="images">
-            <img src="https://tips4teamwork.com/wp-content/uploads/2020/04/office-teamwork.jpg" alt="Tim bekerja sama" class="image1">
-            <img src="https://i1.wp.com/hr-gazette.com/wp-content/uploads/2018/10/bigstock-196164373.jpg?resize=1024%2C594&ssl=1" alt="Kolaborasi tim" class="image2">
-        </div>
-    </section>
 
     <!-- Section 4 -->
     <div class="container">
