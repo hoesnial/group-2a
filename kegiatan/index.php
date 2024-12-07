@@ -88,7 +88,7 @@
         <div style="display: flex; flex-direction: row; overflow-x: hidden; padding-top: 40px; padding-left:60px; padding-bottom: 40px;">
             <div class="text-container">
                 <h2 style=" color: var(--White, #FFF);
-font-family: Nunito;
+font-family: Poppins;
 font-size: 38px;
 font-style: normal;
 font-weight: 700px;
@@ -199,7 +199,7 @@ align-items: flex-start;
         <div style="display: flex; flex-direction: row; overflow-x: hidden; padding-top: 40px; padding-left:60px; padding-bottom: 40px;">
             <div class="text-container">
                 <h2 style=" color: var(--White, #FFF);
-font-family: Nunito;
+font-family: Poppins;
 font-size: 38px;
 font-style: normal;
 font-weight: 700px;
