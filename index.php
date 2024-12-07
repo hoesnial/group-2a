@@ -1099,76 +1099,112 @@ letter-spacing: 0.3px;" >Terbuka dan Tulus:</strong> Mendorong kolaborasi dan
   </section>
 
   <!-- CTA Section -->
-  <section class="cta">
-    <h2>Yuk, Mulai Perjalananmu Bersama Kami!</h2>
-    <p>Ikatkan dirimu pada pengalaman belajar yang tak terlupakan.</p>
-    <button class="btn-secondary">Gabung Sekarang</button>
-  </section>
+  <div class="frame-633174">
+  <div class="pattern-4">
+    <div class="ellipse-19"></div>
+    <div class="ellipse-20"></div>
+    <div class="ellipse-21"></div>
+    <div class="ellipse-22"></div>
+  </div>
+  <div class="pattern-42">
+    <div class="ellipse-192"></div>
+    <div class="ellipse-202"></div>
+    <div class="ellipse-212"></div>
+    <div class="ellipse-222"></div>
+  </div>
+  <div class="frame-633260">
+    <div class="yuk-mulai">
+      Yuk, Mulai Perjalananmu Bersama Kami!
+    </div>
+    <div
+      class="jangan-tunggu">
+      Jangan tunggu lagi untuk belajar skill baru yang relevan dengan kebutuhan
+      industri. Temukan kelas favoritmu dan mulai perjalanan #sampaijadibisa
+      sekarang juga!
+    </div>
+  </div>
+  <div class="frame-633173">
+    <div class="gabung-sekarang">Gabung Sekarang</div>
+  </div>
+</div>
 
   <!-- Contact Section -->
-  <section class="contact">
-    <div class="contact-form">
-      <h3>Ayo Terhubung dan Berkolaborasi</h3>
-      <form>
-        <div class="form-row">
-          <input type="text" placeholder="Nama Depan" required>
-          <input type="text" placeholder="Nama Belakang" required>
-        </div>
-        <input type="email" placeholder="Email" required>
-        <div class="form-row">
-          <select>
-            <option>+62</option>
-            <option>+1</option>
-            <option>+44</option>
-          </select>
-          <input type="text" placeholder="Nomor Telepon" required>
-        </div>
-        <textarea placeholder="Bagaimana kami dapat membantu Anda?" rows="4" required></textarea>
-        <button type="submit" class="btn-primary">Kirim</button>
-      </form>
+  <div class="frame-633241">
+  <div class="frame-633239">
+    <div class="frame-633258">
+      <div class="ayo-terhubung">
+        Ayo Terhubung dan Berkolaborasi
+      </div>
+      <div
+        class="punya-pertanyaan">
+        Punya pertanyaan, masukan, atau ide yang menarik? Kami siap
+        mendengarkan! Hubungi kami melalui formulir di bawah ini atau temukan
+        kami di media sosial
+      </div>
     </div>
-    <div class="contact-info">
-      <iframe class="map-frame" 
-        src="https://maps.google.com/maps?q=Jakarta&t=&z=13&ie=UTF8&iwloc=&output=embed" 
-        frameborder="0" 
-        width="600" 
-        height="200">
-</iframe>
-<h3 class="ctk">Kantor Kami</h3>
-<p class="alamat">Central Tower, Level 36, Jl. Gatot Subroto No.27, Karet Semanggi, Jakarta Selatan 12930, Indonesia</p>
-<div class="social-icons">
-  <a href="mailto:info@example.com" target="_blank">
-    <img src="images/email.png" alt="Email">
-  </a>
-  <a href="https://www.linkedin.com" target="_blank">
-    <img src="images/linkedin.png" alt="LinkedIn">
-  </a>
-  <a href="https://www.instagram.com" target="_blank">
-    <img src="images/ig.png" alt="Instagram">
-  </a>
-  <a href="https://www.youtube.com" target="_blank">
-    <img src="images/youtube.png" alt="YouTube">
-  </a>
-  <a href="https://wa.me/6281234567890" target="_blank">
-    <img src="images/whatsapp.png" alt="WhatsApp">
-  </a>
+    <div class="frame-633237">
+      <div class="frame-633236">
+        <div class="frame-633229">
+          <div class="nama-depan" contenteditable="true" data-placeholder="Nama Depan"></div>
+    </div>
+        <div class="frame-633230">
+          <div class="nama-belakang" contenteditable="true" data-placeholder="Nama Belakang"></div>
+        </div>
+      </div>
+      <div class="frame-633231">
+        <img class="mail" src="images/mail.svg" />
+        <div class="email" contenteditable="true" data-placeholder="Email"></div>
+      </div>
+      <div class="frame-633234">
+        <div class="frame-633233">
+          <div class="_62">+62</div>
+          <img class="chevron-down" src="images/chevron-down.svg" />
+        </div>
+        <div class="frame-633232">
+          <div class="nomor-telepon" contenteditable="true" data-placeholder="Telepon"></div>
+        </div>
+      </div>
+      <div class="frame-633235">
+        <div class="bagaimana-kami-dapat-membantu-anda" contenteditable="true" data-placeholder="Bagaimana kami dapat membantu Anda?"></div>
+      </div>
+      <div class="frame-633220">
+        <div class="kirim">Kirim</div>
+      </div>
+    </div>
+  </div>
+  <div class="frame-633240">
+    <iframe class="frame-633228" src="https://maps.google.com/maps?q=Jakarta&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+    <div class="frame-633238">
+      <div class="kantor-kami">Kantor Kami</div>
+      <div
+        class="centennial-tower">
+        Centennial Tower Level 29, Jl. Jend Gatot Subroto No.27, Karet Semanggi,
+        Setiabudi, Jakarta Selatan 12950, Indonesia
+      </div>
+      <div class="mentor-social-media">
+        <div class="gray-button">
+          <img class="mail2" src="images/mail.svg" />
+        </div>
+        <div class="gray-button">
+          <img class="linked-in" src="linked-in0.svg" />
+        </div>
+        <div class="gray-button">
+          <img class="instagram" src="instagram0.svg" />
+        </div>
+        <div class="gray-button">
+          <img class="youtube" src="youtube0.svg" />
+        </div>
+        <div class="gray-button">
+          <img class="whats-app" src="WhatsApp-1.svg" />
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
-  </section>
+
 
   <!-- Footer Section -->
-  <section class="custom-section">
-    <div class="section-content">
-      <div class="section-text">
-        <h3 class="section-h3">Mari Membangun Sesuatu yang Hebat Bersama!</h3>
-        <p>Punya ide atau proposal untuk kolaborasi? Kami ingin sekali
-          mendengarnya dari Anda. Bagikan pemikiran Anda dan mari kita wujudkan!</p>
-        <button class="btn-section">Ajukan Penawaran</button>
-      </div>
-      <div class="section-image">
-        <img src="images/inspirational.png" alt="Inspirational Image">
-      </div>
-    </div>
-  </section>
+
   
   <script src="faq.js"></script>
 
