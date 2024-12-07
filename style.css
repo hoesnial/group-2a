@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 /* section 1 */
 .pattern-1-icon {
@@ -199,7 +199,7 @@
 /* Judul */
 h2 {
   color: var(--White, #fff);
-  font-family: Nunito;
+  font-family: Poppins;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -210,7 +210,7 @@ h2 {
 /* Deskripsi */
 p#description {
   color: var(--White, #fff);
-  font-family: Nunito;
+  font-family: Poppins;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -460,7 +460,7 @@ p#description {
 }
 
 .profile-name {
-  font-family: "Nunito", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: bold;
   color: #111827;
   font-size: 20px;
@@ -469,7 +469,7 @@ p#description {
 }
 
 .profile-occupant {
-  font-family: "Nunito", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   color: #4b5563;
   font-size: 16px;
@@ -478,7 +478,7 @@ p#description {
 }
 
 .profile-desc {
-  font-family: "Nunito", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   color: #111827;
   font-size: 16px;
@@ -615,14 +615,14 @@ p#description {
 }
 
 .btn-primary {
-  font-family: "Nunito", sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: #00cc99;
   color: white;
 }
 
 .btn-secondary {
   margin-top: 20px;
-  font-family: "Nunito", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: normal;
   background-color: #ffffff;
   color: rgb(0, 0, 0);
@@ -643,7 +643,7 @@ p#description {
 }
 
 .faq-left h2 {
-  font-family: "Nunito", Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-weight: 700;
   font-size: 23px;
   color: #00cc99;
@@ -663,7 +663,7 @@ p#description {
 }
 
 .faq-item {
-  font-family: "Nunito", sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: #ffffff;
   border: 1px solid #e0e0e0;
   border-radius: 8px;
@@ -682,7 +682,7 @@ p#description {
 }
 
 .faq-question {
-  font-family: "Nunito", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   display: flex;
   align-items: center; /* Sejajarkan elemen secara vertikal */
@@ -706,7 +706,7 @@ p#description {
 }
 
 .faq-answer {
-  font-family: "Nunito", sans-serif;
+  font-family: "Poppins", sans-serif;
   display: none;
   margin-top: 10px;
   color: #555;
@@ -788,7 +788,7 @@ p#description {
   position: relative;
 }
 .ayo-terhubung {
-  font-family: "Nunito", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: var(--green-500, #00cc99);
   text-align: left;
   /* font-family: "Poppins-SemiBold", sans-serif; */
@@ -800,7 +800,7 @@ p#description {
   align-self: stretch;
 }
 .punya-pertanyaan {
-  font-family: "Nunito", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: var(--gray-600, #4b5563);
   text-align: left;
   /* font-family: "Poppins-Regular", sans-serif; */
@@ -849,7 +849,7 @@ p#description {
   overflow: hidden;
 }
 .nama-depan {
-  font-family: "Nunito", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: var(--gray-400, #9ca3af);
   text-align: left;
   /* font-family: "Poppins-Regular", sans-serif; */
@@ -877,7 +877,7 @@ p#description {
   overflow: hidden;
 }
 .nama-belakang {
-  font-family: "Nunito", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: var(--gray-400, #9ca3af);
   text-align: left;
   /* font-family: "Poppins-Regular", sans-serif; */
@@ -913,7 +913,7 @@ p#description {
   overflow: visible;
 }
 .email {
-  font-family: "Nunito", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: var(--gray-400, #9ca3af);
   text-align: left;
   /* font-family: "Poppins-Regular", sans-serif; */
@@ -952,7 +952,7 @@ p#description {
   overflow: hidden;
 }
 ._62 {
-  font-family: "Nunito", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: var(--gray-900, #111827);
   text-align: left;
   /* font-family: "Poppins-Regular", sans-serif; */
@@ -982,7 +982,7 @@ p#description {
   overflow: hidden;
 }
 .nomor-telepon {
-  font-family: "Nunito", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: var(--gray-400, #9ca3af);
   text-align: left;
   /* font-family: "Poppins-Regular", sans-serif; */
@@ -1010,7 +1010,7 @@ p#description {
   overflow: hidden;
 }
 .bagaimana-kami-dapat-membantu-anda {
-  font-family: "Nunito", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: var(--gray-400, #9ca3af);
   text-align: left;
   /* font-family: "Poppins-Regular", sans-serif; */
@@ -1035,7 +1035,7 @@ p#description {
   overflow: hidden;
 }
 .kirim {
-  font-family: "Nunito", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: var(--white, #ffffff);
   text-align: left;
   /* font-family: "Poppins-SemiBold", sans-serif; */
@@ -1079,7 +1079,7 @@ p#description {
   position: relative;
 }
 .kantor-kami {
-  font-family: "Nunito", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: var(--gray-900, #111827);
   text-align: left;
   /* font-family: "Poppins-SemiBold", sans-serif; */
@@ -1091,7 +1091,7 @@ p#description {
   align-self: stretch;
 }
 .centennial-tower {
-  font-family: "Nunito", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: var(--gray-600, #4b5563);
   text-align: left;
   /* font-family: "Poppins-Regular", sans-serif; */
@@ -1199,7 +1199,7 @@ p#description {
   cursor: pointer;
   margin-top: 20px;
   transition: background-color 0.3s;
-  font-family: "Nunito", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
 
@@ -1246,7 +1246,7 @@ ul {
 .apa-yang-bikin-kami-beda {
   color: var(--white, #ffffff);
   text-align: left;
-  font-family: "Nunito-Bold", sans-serif;
+  font-family: "Poppins-Bold", sans-serif;
   font-size: 40px;
   line-height: 50px;
   letter-spacing: 0.3px;
@@ -1257,7 +1257,7 @@ ul {
 .kami-menawarkan-keunggulan-seperti {
   color: var(--white, #ffffff);
   text-align: left;
-  font-family: "Nunito-SemiBold", sans-serif;
+  font-family: "Poppins-SemiBold", sans-serif;
   font-size: 20px;
   line-height: 30px;
   letter-spacing: 0.3px;
@@ -1299,7 +1299,7 @@ ul {
 .mentor-profesional {
   color: var(--gray-900, #111827);
   text-align: left;
-  font-family: "Nunito-Bold", sans-serif;
+  font-family: "Poppins-Bold", sans-serif;
   font-size: 24px;
   line-height: 34px;
   letter-spacing: 0.3px;
@@ -1310,7 +1310,7 @@ ul {
 .belajar-dari-ahlinya {
   color: var(--gray-500, #6d7280);
   text-align: left;
-  font-family: "Nunito-Medium", sans-serif;
+  font-family: "Poppins-Medium", sans-serif;
   font-size: 20px;
   line-height: 30px;
   letter-spacing: 0.3px;
@@ -1343,7 +1343,7 @@ ul {
 .harga-terjangkau {
   color: var(--gray-900, #111827);
   text-align: left;
-  font-family: "Nunito-Bold", sans-serif;
+  font-family: "Poppins-Bold", sans-serif;
   font-size: 24px;
   line-height: 34px;
   letter-spacing: 0.3px;
@@ -1354,7 +1354,7 @@ ul {
 .kualitas-tinggi-harga-murah {
   color: var(--gray-500, #6d7280);
   text-align: left;
-  font-family: "Nunito-Medium", sans-serif;
+  font-family: "Poppins-Medium", sans-serif;
   font-size: 20px;
   line-height: 30px;
   letter-spacing: 0.3px;
@@ -1393,7 +1393,7 @@ ul {
 .materi-terupdate {
   color: var(--gray-900, #111827);
   text-align: left;
-  font-family: "Nunito-Bold", sans-serif;
+  font-family: "Poppins-Bold", sans-serif;
   font-size: 24px;
   line-height: 34px;
   letter-spacing: 0.3px;
@@ -1404,7 +1404,7 @@ ul {
 .dibuat-sesuai-tren-industri {
   color: var(--gray-500, #6d7280);
   text-align: left;
-  font-family: "Nunito-Medium", sans-serif;
+  font-family: "Poppins-Medium", sans-serif;
   font-size: 20px;
   line-height: 30px;
   letter-spacing: 0.3px;
@@ -1437,7 +1437,7 @@ ul {
 .waktu-fleksibel {
   color: var(--gray-900, #111827);
   text-align: left;
-  font-family: "Nunito-Bold", sans-serif;
+  font-family: "Poppins-Bold", sans-serif;
   font-size: 24px;
   line-height: 34px;
   letter-spacing: 0.3px;
@@ -1448,7 +1448,7 @@ ul {
 .akses-kapan-aja-dimana-aja {
   color: var(--gray-500, #6d7280);
   text-align: left;
-  font-family: "Nunito-Medium", sans-serif;
+  font-family: "Poppins-Medium", sans-serif;
   font-size: 20px;
   line-height: 30px;
   letter-spacing: 0.3px;
@@ -1483,7 +1483,7 @@ ul {
 .cerita-sukses-pengguna {
   color: var(--green-500, #00cc99);
   text-align: center;
-  font-family: "Nunito-Bold", sans-serif;
+  font-family: "Poppins-Bold", sans-serif;
   font-size: 40px;
   line-height: 50px;
   letter-spacing: 0.3px;
@@ -1494,7 +1494,7 @@ ul {
 .text {
   color: var(--gray-600, #4b5563);
   text-align: center;
-  font-family: "Nunito-Medium", sans-serif;
+  font-family: "Poppins-Medium", sans-serif;
   font-size: 20px;
   line-height: 30px;
   letter-spacing: 0.3px;
@@ -1561,7 +1561,7 @@ ul {
 .fahmi-pratama {
   color: var(--gray-900, #111827);
   text-align: left;
-  font-family: "Nunito-Bold", sans-serif;
+  font-family: "Poppins-Bold", sans-serif;
   font-size: 28px;
   line-height: 28px;
   letter-spacing: 0.3px;
@@ -1572,7 +1572,7 @@ ul {
 .digital-marketing {
   color: var(--gray-600, #4b5563);
   text-align: left;
-  font-family: "Nunito-Medium", sans-serif;
+  font-family: "Poppins-Medium", sans-serif;
   font-size: 16px;
   line-height: 16px;
   letter-spacing: 0.3px;
@@ -1643,7 +1643,7 @@ ul {
 .saya-baru-saja-mengikuti-kelas-digital-marketing-di-luar-sekolah-dan-hasilnya-luar-biasa-dalam-3-bulan-omzet-usaha-saya-naik-40-kelas-ini-memberikan-wawasan-praktis-yang-langsung-bisa-saya-aplikasikan-ke-bisnis-saya-terima-kasih-mentor-mentor-di-luar-sekolah-kalian-luar-biasa {
   color: var(--gray-900, #111827);
   text-align: left;
-  font-family: "Nunito-Medium", sans-serif;
+  font-family: "Poppins-Medium", sans-serif;
   font-size: 18px;
   line-height: 28px;
   letter-spacing: 0.3px;
@@ -1672,7 +1672,7 @@ ul {
 .mira-setyaningrum {
   color: var(--gray-900, #111827);
   text-align: left;
-  font-family: "Nunito-Bold", sans-serif;
+  font-family: "Poppins-Bold", sans-serif;
   font-size: 28px;
   line-height: 28px;
   letter-spacing: 0.3px;
@@ -1683,7 +1683,7 @@ ul {
 .ui-ux-design {
   color: var(--gray-600, #4b5563);
   text-align: left;
-  font-family: "Nunito-Medium", sans-serif;
+  font-family: "Poppins-Medium", sans-serif;
   font-size: 16px;
   line-height: 16px;
   letter-spacing: 0.3px;
@@ -1732,7 +1732,7 @@ ul {
 .sebelum-bergabung-dengan-kelas-ux-design-bootcamp-saya-tidak-tahu-harus-mulai-dari-mana-tapi-sekarang-saya-bekerja-sebagai-desainer-ui-ux-di-perusahaan-teknologi-besar-semua-berkat-program-intensif-dan-dukungan-mentor-dari-luar-sekolah-sangat-direkomendasikan-untuk-siapa-pun-yang-ingin-berpindah-karier {
   color: var(--gray-900, #111827);
   text-align: left;
-  font-family: "Nunito-Medium", sans-serif;
+  font-family: "Poppins-Medium", sans-serif;
   font-size: 18px;
   line-height: 28px;
   letter-spacing: 0.3px;
@@ -1761,7 +1761,7 @@ ul {
 .ardi-prakoso {
   color: var(--gray-900, #111827);
   text-align: left;
-  font-family: "Nunito-Bold", sans-serif;
+  font-family: "Poppins-Bold", sans-serif;
   font-size: 28px;
   line-height: 28px;
   letter-spacing: 0.3px;
@@ -1772,7 +1772,7 @@ ul {
 .web-development {
   color: var(--gray-600, #4b5563);
   text-align: left;
-  font-family: "Nunito-Medium", sans-serif;
+  font-family: "Poppins-Medium", sans-serif;
   font-size: 16px;
   line-height: 16px;
   letter-spacing: 0.3px;
@@ -1821,7 +1821,7 @@ ul {
 .sebagai-lulusan-baru-saya-merasa-minder-memasuki-dunia-kerja-beruntung-saya-mengikuti-program-soft-skills-di-luar-sekolah-selain-belajar-komunikasi-efektif-saya-juga-mendapat-tips-wawancara-kerja-hasilnya-saya-diterima-di-perusahaan-impian-saya-terima-kasih-luar-sekolah {
   color: var(--gray-900, #111827);
   text-align: left;
-  font-family: "Nunito-Medium", sans-serif;
+  font-family: "Poppins-Medium", sans-serif;
   font-size: 18px;
   line-height: 28px;
   letter-spacing: 0.3px;
@@ -1855,7 +1855,7 @@ ul {
 ._1 {
   color: var(--white-100, #ffffff);
   text-align: center;
-  font-family: "Nunito-Bold", sans-serif;
+  font-family: "Poppins-Bold", sans-serif;
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 0.003em;
@@ -1881,7 +1881,7 @@ ul {
 ._2 {
   color: var(--gray-400, #9ca3af);
   text-align: center;
-  font-family: "Nunito-Bold", sans-serif;
+  font-family: "Poppins-Bold", sans-serif;
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 0.003em;
@@ -1891,7 +1891,7 @@ ul {
 ._3 {
   color: var(--gray-400, #9ca3af);
   text-align: center;
-  font-family: "Nunito-Bold", sans-serif;
+  font-family: "Poppins-Bold", sans-serif;
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 0.003em;
@@ -2299,7 +2299,7 @@ ul {
   position: relative;
 }
 .yuk-mulai {
-  font-family: "Nunito", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: var(--white, #ffffff);
   text-align: center;
   /* font-family: "Poppins-SemiBold", sans-serif; */
@@ -2311,7 +2311,7 @@ ul {
   align-self: stretch;
 }
 .jangan-tunggu {
-  font-family: "Nunito", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: var(--white, #ffffff);
   text-align: center;
   /* font-family: "Poppins-Regular", sans-serif; */
@@ -2350,7 +2350,7 @@ ul {
 div[contenteditable="true"]:empty:before {
   content: attr(data-placeholder); /* Gunakan teks dari data-placeholder */
   color: #aaa; /* Warna teks placeholder */
-  font-family: "Nunito", sans-serif; /* Opsional: membuat teks miring */
+  font-family: "Poppins", sans-serif; /* Opsional: membuat teks miring */
 }
 
 div[contenteditable="true"] {
