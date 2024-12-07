@@ -10,11 +10,44 @@
 </head>
 <body>
 
-<?php include('navbar.php'); ?>
-
-<!--pattern -->
 <img class="pattern-1-icon" alt="" src="images/Pattern6.png">
 <img class="pattern-2-icon" alt="" src="images/Pattern5.png">
+
+<?php include('navbar.php'); ?>
+
+<div class="kolaborasi-container">
+    <header class="kolaborasi-header">        
+        <h1>Kegiatan</h1>
+        <h2>Eksplorasi Tak Terbatas bersama Luarsekolah</h2>
+        <p>
+            Ikuti berbagai aktivitas seru yang menginspirasi dan memperkuat solidaritas. Mulai dari pelatihan, 
+            penggalangan dana, hingga kolaborasi dengan berbagai komunitas, kami berkomitmen menciptakan peluang 
+            bagi generasi muda untuk berbagi dan tumbuh bersama di setiap langkah.
+        </p>
+    </header>
+</div>
+        <section class="kolaborasi-cards">
+    <div class="kolaborasi-card gambar-pertama">
+        <img src="images/Collaborative Work Session.jpeg" alt="Kegiatan Kolaborasi">
+        <h3>Kegiatan Kolaborasi</h3>
+        <p>Unity for Charity by Luarsekolah X Rumah Amal Salman</p>
+    </div>
+    <div class="kolaborasi-card">
+        <img src="images/next-academy-JyJwO0K5fWM-unsplash.jpg" alt="Magang+">
+        <h3>Magang+</h3>
+        <p>Unity for Charity by Luarsekolah X Rumah Amal Salman</p>
+    </div>
+    <div class="kolaborasi-card">
+        <img src="images/Business Meeting in Modern Conference Room.jpeg" alt="Pelatihan Prakerja">
+        <h3>Pelatihan Prakerja</h3>
+        <p>Unity for Charity by Luarsekolah X Rumah Amal Salman</p>
+    </div>
+    <div class="kolaborasi-card">
+        <img src="images/Attentive Student in Colorful Classroom.jpeg" alt="Luarsekolah Cendikia">
+        <h3>Luarsekolah Cendikia</h3>
+        <p>Unity for Charity by Luarsekolah X Rumah Amal Salman</p>
+    </div>
+</section>
 
 <!-- Untuk section lainnya -->
 
