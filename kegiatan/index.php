@@ -35,17 +35,17 @@
     <div class="kolaborasi-card">
         <img src="images/next-academy-JyJwO0K5fWM-unsplash.jpg" alt="Magang+">
         <h3>Magang+</h3>
-        <p>Unity for Charity by Luarsekolah X Rumah Amal Salman</p>
+        <p>Program magang intensif yang menggabungkan pelatihan vokasi dan pengalaman kerja nyata.</p>
     </div>
     <div class="kolaborasi-card">
         <img src="images/Business Meeting in Modern Conference Room.jpeg" alt="Pelatihan Prakerja">
         <h3>Pelatihan Prakerja</h3>
-        <p>Unity for Charity by Luarsekolah X Rumah Amal Salman</p>
+        <p>Sapa SobatLS: Sosialisasi Prakerja Tahun 2024</p>
     </div>
     <div class="kolaborasi-card">
         <img src="images/Attentive Student in Colorful Classroom.jpeg" alt="Luarsekolah Cendikia">
         <h3>Luarsekolah Cendikia</h3>
-        <p>Unity for Charity by Luarsekolah X Rumah Amal Salman</p>
+        <p>Career GPS: Mapping Your Path to Success</p>
     </div>
 </section>
 
