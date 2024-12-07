@@ -19,9 +19,10 @@ body {
 }
 
 .logo {
-  margin-left: 20px;
   display: flex;
   align-items: center;
+  margin-right: 20px;
+  margin-left: 260px;
 }
 
 .logo-image {
@@ -31,7 +32,6 @@ body {
 
 /* Dropdown Menu */
 .menu {
-  margin-left: 200px;
   position: relative;
   font-size: 16px;
   font-weight: bold;
@@ -120,12 +120,13 @@ body {
 .search-button:hover {
   background-color: #00b372; /* Warna saat hover */
 }
+
 /* Authentication Buttons */
-.auth-buttons {
-  margin-right: 20px;
+
+.auth-buttons{
   display: flex;
-  align-items: center;
-  gap: 15px;
+  gap: 24px;
+  margin-left: 180px;
 }
 
 .register-button {
@@ -190,7 +191,7 @@ body {
 }
 
 .dropdown-menu a.logout-link:hover {
-  color: red; /* Ubah warna teks saat di-hover */ /* Opsional: Mengubah warna menjadi merah lebih gelap saat di-hover */
+  color: red; /* Ubah warna teks saat di-hover */
 }
 
 @media (max-width: 768px) {
@@ -199,30 +200,35 @@ body {
     align-items: flex-start; /* Align items to the start */
   }
 
+  .logo {
+    margin-right: 0; /* Reset margin untuk logo */
+  }
+
   .menu {
-    margin-left: 0; /* Reset margin for mobile */
+    margin-left: 0; /* Reset margin untuk menu pada mobile */
   }
 
   .search-bar {
-    width: 100%; 
-    margin: 10px 0; 
+    width: 100%;
+    margin: 10px 0;
   }
 
   .auth-buttons {
-    margin-top: 10px; 
+margin-right: 10px;
   }
 }
 
 @media (max-width: 480px) {
   .search-input {
-    padding: 8px; 
+    padding: 8px;
   }
 
   .search-button {
-    padding: 8px; 
-    font-size: 14px; 
+    padding: 8px;
+    font-size: 14px;
   }
 }
+
 
 </style>
 
@@ -246,19 +252,11 @@ body {
                 <input type="text" class="search-input" placeholder="Cari kelas yang ingin kamu pelajari">
                 <button type="submit" class="search-button">
     <i class="fas fa-search"></i>
-</button>            </form>
-        </div>
-        <div class="auth-buttons">
-            <div class="dropdown">
-                <img src="https://via.placeholder.com/40" alt="User Photo" class="user-photo">
-                <span class="dropdown-trigger">Halo, Username <i class="fas fa-chevron-down"></i></span>
-                <div class="dropdown-menu">
-                    <a href="#">Reedem Voucher</a>
-                    <a href="#">Akun Saya</a>
-                    <a href="#">Kelas Saya</a>
-                    <a href="#">Transaksi Saya</a>
-                    <a href="#" class="logout-link">Keluar</a>
-                </div>
-            </div>
+</button>            
+</form>
+<div class="auth-buttons">
+  <button class="login-button">Masuk</button>
+        <button class="register-button">Daftar</button>
+    </div>
         </div>
     </nav>
