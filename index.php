@@ -18,7 +18,7 @@
 <?php include('navbar.php'); ?>
 
 <!-- section 1 -->
-<div class="section-1" style="    font-family: 'Nunito', sans-serif;
+<div class="section-1" style="    font-family: 'Poppins', sans-serif;
     color: #333;
     line-height: 1.6;
     margin-bottom: 50px;
@@ -26,7 +26,7 @@
     position: relative;">
     <!-- Title Section -->
     <div >
-        <p style="font-family: Nunito, normal; font-weight: 700; font-size: 24px; color:#111827; text-align: center; letter-spacing: 0.3px; line-height: 28px; margin-bottom: 20px; margin-top:20px;">
+        <p style="font-family: Poppins, normal; font-weight: 700; font-size: 24px; color:#111827; text-align: center; letter-spacing: 0.3px; line-height: 28px; margin-bottom: 20px; margin-top:20px;">
             Tentang Kami
         </p>
     </div>
@@ -45,7 +45,7 @@
 
     <!-- Description Section -->
     <div >
-        <p style="font-family: Nunito, sans-serif; font-weight: 500; font-size: 20px; color: #4B5563; text-align: center; line-height: 30px; margin-bottom: 30px;">
+        <p style="font-family: Poppins, sans-serif; font-weight: 500; font-size: 20px; color: #4B5563; text-align: center; line-height: 30px; margin-bottom: 30px;">
             Platform edukasi vokasi dan pengembangan diri berbasis online yang mendampingi generasi muda <br> Indonesia untuk terus berkembang #sampaijadibisa
         </p>
     </div>
@@ -443,14 +443,14 @@
       <div id="visi" class="content active">
         <div class="content-text">
           <h2 style="color: var(--Gray-900, #111827);
-font-family: Nunito;
+font-family: Poppins;
 font-size: 24px;
 font-style: normal;
 font-weight: 700;
 line-height: 34px; /* 141.667% */
 letter-spacing: 0.3px;">Visi Kami</h2>
           <p style="color: var(--Gray-500, #6D7280);
-font-family: Nunito;
+font-family: Poppins;
 font-size: 30px;
 font-style: normal;
 font-weight: 500;
@@ -468,7 +468,7 @@ letter-spacing: 0.3px;align-self: stretch;" >
       <div id="misi" class="content">
         <div class="content-text">
           <h2 style="color: var(--Gray-900, #111827);
-font-family: Nunito;
+font-family: Poppins;
 font-size: 24px;
 font-style: normal;
 font-weight: 700;
@@ -476,14 +476,14 @@ line-height: 34px; /* 141.667% */
 letter-spacing: 0.3px;">Misi Kami</h2>
           <ul>
             <li style="color: var(--Gray-900, #111827);
-font-family: Nunito;
+font-family: Poppins;
 font-size: 20px;
 font-style: normal;
 font-weight: 600;
 line-height: 30px; /* 150% */
 letter-spacing: 0.3px;">Menyediakan akses edukasi vokasi yang mudah dan terjangkau.</li>
             <li style="color: var(--Gray-900, #111827);
-font-family: Nunito;
+font-family: Poppins;
 font-size: 20px;
 font-style: normal;
 font-weight: 600;
@@ -492,7 +492,7 @@ letter-spacing: 0.3px;">
               Menutup skill gap generasi muda Indonesia dengan industri modern.
             </li>
             <li style="color: var(--Gray-900, #111827);
-font-family: Nunito;
+font-family: Poppins;
 font-size: 20px;
 font-style: normal;
 font-weight: 600;
@@ -508,7 +508,7 @@ letter-spacing: 0.3px;">Menghadirkan mentor profesional untuk membimbing langsun
       <div id="nilai" class="content">
         <div class="content-text">
           <h2 style="color: var(--Gray-900, #111827);
-font-family: Nunito;
+font-family: Poppins;
 font-size: 24px;
 font-style: normal;
 font-weight: 600;
@@ -516,14 +516,14 @@ line-height: 34px; /* 141.667% */
 letter-spacing: 0.3px;">Nilai Kami</h2>
           <ul>
             <li style="color: var(--Gray-500, #6D7280);
-font-family: Nunito;
+font-family: Poppins;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 26px; /* 162.5% */
 letter-spacing: 0.3px;">
               <strong style="color: var(--Gray-900, #111827);
-font-family: Nunito;
+font-family: Poppins;
 font-size: 20px;
 font-style: normal;
 font-weight: 600;
@@ -532,14 +532,14 @@ letter-spacing: 0.3px;">Berani Memulai:</strong> Menyediakan peluang untuk belaj
               dan berkembang.
             </li>
             <li style="color: var(--Gray-500, #6D7280);
-font-family: Nunito;
+font-family: Poppins;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 26px; /* 162.5% */
 letter-spacing: 0.3px;">
               <strong style="color: var(--Gray-900, #111827);
-font-family: Nunito;
+font-family: Poppins;
 font-size: 20px;
 font-style: normal;
 font-weight: 600;
@@ -548,14 +548,14 @@ letter-spacing: 0.3px;" >Relevan dengan Zaman:</strong> Selalu adaptif dengan
               kebutuhan dan tren dunia kerja.
             </li>
             <li style="color: var(--Gray-500, #6D7280);
-font-family: Nunito;
+font-family: Poppins;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 26px; /* 162.5% */
 letter-spacing: 0.3px;">
               <strong style="color: var(--Gray-900, #111827);
-font-family: Nunito;
+font-family: Poppins;
 font-size: 20px;
 font-style: normal;
 font-weight: 600;
@@ -640,24 +640,24 @@ letter-spacing: 0.3px;" >Terbuka dan Tulus:</strong> Mendorong kolaborasi dan
 
 
 <div class="city-container">
-        <div class="" style="font-family: Nunito, sans-seriff; font-weight: bold; font-size: 36px; color: #00CC99; width: 100%; text-align: center;">Dampak Nyata, Mewujudkan Perubahan</div>
+        <div class="" style="font-family: Poppins, sans-seriff; font-weight: bold; font-size: 36px; color: #00CC99; width: 100%; text-align: center;">Dampak Nyata, Mewujudkan Perubahan</div>
         <div class="grid-city">
             <div class="grid-item">
-                <p style="font-family: Nunito, sans-seriff; font-weight: bold; font-size: 32px; color: #111827;">250.000+</p>
-                <p style="font-family: Nunito, sans-seriff; font-weight: 500; font-size: 16px; color: #4B5563;">pengguna telah belajar bersama kami</p>
+                <p style="font-family: Poppins, sans-seriff; font-weight: bold; font-size: 32px; color: #111827;">250.000+</p>
+                <p style="font-family: Poppins, sans-seriff; font-weight: 500; font-size: 16px; color: #4B5563;">pengguna telah belajar bersama kami</p>
             </div>
             <div class="grid-item">
-                <p style="font-family: Nunito, sans-seriff; font-weight: bold; font-size: 32px; color: #111827;">100+</p>
-                <p style="font-family: Nunito, sans-seriff; font-weight: 500; font-size: 16px; color: #4B5563;">program relevan untuk masa depan</p>
+                <p style="font-family: Poppins, sans-seriff; font-weight: bold; font-size: 32px; color: #111827;">100+</p>
+                <p style="font-family: Poppins, sans-seriff; font-weight: 500; font-size: 16px; color: #4B5563;">program relevan untuk masa depan</p>
             </div>
             <div class="grid-item">
-                <p style="font-family: Nunito, sans-seriff; font-weight: bold; font-size: 32px; color: #111827;">10.000+</p>
-                <p style="font-family: Nunito, sans-seriff; font-weight: 500; font-size: 16px; color: #4B5563;">telah berhasil mendapatkan pekerjaan</p>
+                <p style="font-family: Poppins, sans-seriff; font-weight: bold; font-size: 32px; color: #111827;">10.000+</p>
+                <p style="font-family: Poppins, sans-seriff; font-weight: 500; font-size: 16px; color: #4B5563;">telah berhasil mendapatkan pekerjaan</p>
             </div>
         </div>
 
         <!-- section 6 -->
-        <div class="" style="font-family: Nunito, sans-seriff; font-weight: bold; font-size: 24px; color: #111827; width: 100%; text-align: center; margin-top: 40px; margin-bottom: 40px;">Platform Kami Mencakup di Penjuru Nusantara</div>
+        <div class="" style="font-family: Poppins, sans-seriff; font-weight: bold; font-size: 24px; color: #111827; width: 100%; text-align: center; margin-top: 40px; margin-bottom: 40px;">Platform Kami Mencakup di Penjuru Nusantara</div>
         <div style="width: 100%; display: flex; justify-content: center; align-items: center;">
             <img src="map.png" style="width: 80%;" alt="">
         </div>
@@ -793,7 +793,7 @@ letter-spacing: 0.3px;" >Terbuka dan Tulus:</strong> Mendorong kolaborasi dan
   <div class="main-container">
     <div style="display: flex; flex-direction: row; overflow-x: hidden; padding-top: 40px; padding-left:60px; padding-bottom: 40px;">
       <div class="text-container">
-                <h2 style=" font-family: Nunito, sans-serif;margin-right: 20px; margin-top: 10px; color: white;   font-weight: 700;
+                <h2 style=" font-family: Poppins, sans-serif;margin-right: 20px; margin-top: 10px; color: white;   font-weight: 700;
                 letter-spacing: 0.3px; font-size: 28px;" >Belajar dari Praktisi <br>Terbaik di Bidangnya</h2>
                 <p style="  font-weight: 600; font-size: 14px; line-height: 24px; letter-spacing: 0.3px; color: white;">Setiap perjalanan belajar adalah cerita yang unik. Luarsekolah,
                     kami bangga telah membantu banyak individu mengubah hidup mereka melalui pendidikan
@@ -889,10 +889,10 @@ letter-spacing: 0.3px;" >Terbuka dan Tulus:</strong> Mendorong kolaborasi dan
 
     <div class="persons-container">
       <div class="" style="display: flex; flex-direction: row; justify-content: space-between; align-items: center;">
-            <div class="" style="flex-basis: 40%; font-family: Nunito, sans-seriff; font-weight: bold; font-size: 36px; color: #00CC99; width: 100%; text-align: center;">
+            <div class="" style="flex-basis: 40%; font-family: Poppins, sans-seriff; font-weight: bold; font-size: 36px; color: #00CC99; width: 100%; text-align: center;">
                 <h5 style="text-align: left; margin: 0px;">Orang-Orang Hebat di Balik Luarsekolah</h5>
             </div>
-            <div class="" style="flex-basis: 55%; font-family: Nunito, sans-seriff; font-weight: bold; font-size: 16px; color: #4B5563; width: 100%; text-align: center;">
+            <div class="" style="flex-basis: 55%; font-family: Poppins, sans-seriff; font-weight: bold; font-size: 16px; color: #4B5563; width: 100%; text-align: center;">
               <p style="text-align: left;">Kami bangga memiliki tim yang berdedikasi untuk memberikan pengalaman belajar terbaik bagi semua pengguna. Kenalan lebih dekat dengan tim kami yang selalu ada di balik layar kesuksesan Luarsekolah.</p>
             </div>
         </div>
