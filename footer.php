@@ -139,8 +139,8 @@
         </div>
 
         <div style="display: flex; flex-direction: row; justify-content: space-between; width: 100%;">
-            <p style="font-family: Nunito, sans-seriff; font-weight: 500; font-size: 16px; color: #4B5563;">PT Teknologi Edukasi Indonesia</p>
-            <p style="font-family: Nunito, sans-seriff; font-weight: 500; font-size: 16px; color: #4B5563;">Copyright ©2022 • All Rights Reserved</p>
+            <p style="font-family: Poppins, sans-seriff; font-weight: 500; font-size: 16px; color: #4B5563;">PT Teknologi Edukasi Indonesia</p>
+            <p style="font-family: Poppins, sans-seriff; font-weight: 500; font-size: 16px; color: #4B5563;">Copyright ©2022 • All Rights Reserved</p>
         </div>
     </div>
 </footer>
