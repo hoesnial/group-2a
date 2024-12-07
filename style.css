@@ -1,5 +1,291 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tabbing {
+  border: 2px solid #e5e7eb; /* Warna abu-abu terang untuk garis */
+  border-radius: 50px; /* Membuat sudut garis melingkar */
+  padding: 8px; /* Jarak antara garis dan tab */
+  display: flex;
+  gap: 4px; /* Jarak antar tab */
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Tombol tab */
+.tabbing > div {
+  flex: 1;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border: none;
+  margin: 0;
+}
+
+.active-tab {
+  background-color: #00cc99; /* Hijau untuk tab aktif */
+  color: white; /* Teks putih */
+}
+
+.tabbing > div:not(.active-tab) {
+  background-color: transparent; /* Tidak ada latar belakang */
+  color: #6d7280; /* Warna teks abu-abu */
+}
+
+/* Efek hover untuk tab */
+.tabbing > div:hover {
+  background-color: #a1e4d4;
+  color: #ffffff;
+}
+
+/* Responsif untuk layar lebih kecil */
+@media (max-width: 768px) {
+  .tabbing {
+    flex-direction: column;
+    gap: 10px; /* Tambahkan jarak antar tab pada layar kecil */
+  }
+}
+
+/* Responsif untuk layar lebih kecil */
+@media (max-width: 768px) {
+  .tabbing {
+    flex-direction: column;
+    gap: 10px; /* Tambahkan jarak antar tab pada layar kecil */
+  }
+}
+
+.frame-633266 {
+  background: var(--green-500, #00cc99);
+  border-radius: 100px;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  position: relative;
+}
+.visi {
+  color: var(--white, #ffffff);
+  text-align: center;
+  font-family: "Nunito-Bold", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.3px;
+  font-weight: 700;
+  position: relative;
+}
+.frame-633267 {
+  border-radius: 100px;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  position: relative;
+}
+.misi {
+  color: var(--gray-500, #6d7280);
+  text-align: center;
+  font-family: "Nunito-Bold", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.3px;
+  font-weight: 700;
+  position: relative;
+}
+.frame-633268 {
+  border-radius: 100px;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  position: relative;
+}
+.nilai {
+  color: var(--gray-500, #6d7280);
+  text-align: center;
+  font-family: "Nunito-Bold", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.3px;
+  font-weight: 700;
+  position: relative;
+}
+
+.tab-content {
+  display: none;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.tab-content.active {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.content-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.text-section {
+  flex: 1;
+  text-align: left;
+}
+
+.image-section {
+  flex: 1;
+  text-align: right;
+}
+
+.text-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.text-section ul li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  gap: 15px;
+}
+
+.text-section ul li img {
+  width: 40px;
+  height: 40px;
+}
+
+.text-section ul li div {
+  flex: 1;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+p {
+  margin: 5px 0;
+  color: #555;
+}
+
+ul li strong {
+  color: #050807;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .content-wrapper {
+    flex-direction: column;
+  }
+
+  .image-section {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .tabs {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .tab-button {
+    width: 100%;
+    text-align: center;
+  }
+}
+/* Responsif untuk layar hingga 768px */
+@media (max-width: 768px) {
+  .content-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text-section {
+    text-align: center;
+  }
+
+  .image-section {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .tabbing {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .frame-633266,
+  .frame-633267,
+  .frame-633268 {
+    width: 100%;
+  }
+
+  ul li {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  ul li img {
+    margin-bottom: 10px;
+  }
+}
+
+/* Responsif untuk layar kecil hingga 480px */
+@media (max-width: 480px) {
+  body {
+    padding: 10px;
+  }
+
+  .container {
+    padding: 15px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  ul li strong {
+    font-size: 16px;
+  }
+}
+
 /* section 1 */
 .pattern-1-icon {
   width: 100%;

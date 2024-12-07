@@ -430,162 +430,131 @@
 </script>
 
 
-    <!-- Section 4 -->
-    <div class="container">
-      <!-- Tab Buttons -->
-      <div class="tabs">
-        <button class="active" onclick="showContent('visi')">Visi</button>
-        <button onclick="showContent('misi')">Misi</button>
-        <button onclick="showContent('nilai')">Nilai</button>
+<div class="container">
+      <div class="tabbing">
+        <div class="frame-633266 active-tab" onclick="showTab('visi')">
+          Visi
+        </div>
+        <div class="frame-633267" onclick="showTab('misi')">Misi</div>
+        <div class="frame-633268" onclick="showTab('nilai')">Nilai</div>
       </div>
 
-      <!-- Content Sections -->
-      <div id="visi" class="content active">
-        <div class="content-text">
-          <h2 style="color: var(--Gray-900, #111827);
-font-family: Nunito;
-font-size: 24px;
-font-style: normal;
-font-weight: 700;
-line-height: 34px; /* 141.667% */
-letter-spacing: 0.3px;">Visi Kami</h2>
-          <p style="color: var(--Gray-500, #6D7280);
-font-family: Nunito;
-font-size: 30px;
-font-style: normal;
-font-weight: 500;
-line-height: 50px; /* 125% */
-letter-spacing: 0.3px;align-self: stretch;" >
-            "Membawa generasi muda Indonesia menjadi kompeten dan relevan di
-            dunia kerja."
-          </p>
-        </div>
-        <div class="content-image">
-          <img src="images/visi.png" alt="Visi Image" />
+      <div id="visi" class="tab-content active">
+        <div class="content-wrapper">
+          <div class="text-section">
+            <h2>Visi Kami</h2>
+            <p>
+              “Membawa generasi muda Indonesia menjadi kompeten dan relevan di
+              dunia kerja.”
+            </p>
+          </div>
+          <div class="image-section">
+            <img src="images/visi.png" alt="Visi Image" />
+          </div>
         </div>
       </div>
-
-      <div id="misi" class="content">
-        <div class="content-text">
-          <h2 style="color: var(--Gray-900, #111827);
-font-family: Nunito;
-font-size: 24px;
-font-style: normal;
-font-weight: 700;
-line-height: 34px; /* 141.667% */
-letter-spacing: 0.3px;">Misi Kami</h2>
-          <ul>
-            <li style="color: var(--Gray-900, #111827);
-font-family: Nunito;
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: 30px; /* 150% */
-letter-spacing: 0.3px;">Menyediakan akses edukasi vokasi yang mudah dan terjangkau.</li>
-            <li style="color: var(--Gray-900, #111827);
-font-family: Nunito;
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: 30px; /* 150% */
-letter-spacing: 0.3px;">
-              Menutup skill gap generasi muda Indonesia dengan industri modern.
-            </li>
-            <li style="color: var(--Gray-900, #111827);
-font-family: Nunito;
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: 30px; /* 150% */
-letter-spacing: 0.3px;">Menghadirkan mentor profesional untuk membimbing langsung.</li>
-          </ul>
-        </div>
-        <div class="content-image">
-          <img src="images/misi.png" alt="Misi Image" />
+      <div id="misi" class="tab-content">
+        <div class="content-wrapper">
+          <div class="text-section">
+            <h2>Apa saja Misi Kami?</h2>
+            <ul>
+              <li>
+                <img src="images/misi1.svg" alt="Ikon Misi 1" />
+                <div>
+                  <strong
+                    >Menyediakan akses edukasi vokasi yang mudah dan
+                    terjangkau</strong
+                  >
+                  <p>
+                    Kami percaya bahwa semua orang berhak mendapatkan pendidikan
+                    berkualitas tanpa harus menghadapi hambatan finansial atau
+                    geografis.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <img src="images/misi2.svg" alt="Ikon Misi 2" />
+                <div>
+                  <strong
+                    >Menutup skill gap generasi muda Indonesia dengan industri
+                    modern</strong
+                  >
+                  <p>
+                    Kami hadir untuk menjembatani kebutuhan dunia kerja dengan
+                    kemampuan yang dimiliki generasi muda melalui materi
+                    pembelajaran yang relevan dan up-to-date.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <img src="images/misi3.svg" alt="Ikon Misi 3" />
+                <div>
+                  <strong
+                    >Menghadirkan mentor profesional untuk membimbing
+                    langsung</strong
+                  >
+                  <p>
+                    Dengan bimbingan langsung dari para ahli di bidangnya,
+                    peserta akan lebih percaya diri dalam mempelajari skill baru
+                    dan mengaplikasikannya di dunia nyata.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="image-section">
+            <img src="images/misi.png" alt="Misi Image" />
+          </div>
         </div>
       </div>
-
-      <div id="nilai" class="content">
-        <div class="content-text">
-          <h2 style="color: var(--Gray-900, #111827);
-font-family: Nunito;
-font-size: 24px;
-font-style: normal;
-font-weight: 600;
-line-height: 34px; /* 141.667% */
-letter-spacing: 0.3px;">Nilai Kami</h2>
-          <ul>
-            <li style="color: var(--Gray-500, #6D7280);
-font-family: Nunito;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 26px; /* 162.5% */
-letter-spacing: 0.3px;">
-              <strong style="color: var(--Gray-900, #111827);
-font-family: Nunito;
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: 30px; /* 150% */
-letter-spacing: 0.3px;">Berani Memulai:</strong> Menyediakan peluang untuk belajar
-              dan berkembang.
-            </li>
-            <li style="color: var(--Gray-500, #6D7280);
-font-family: Nunito;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 26px; /* 162.5% */
-letter-spacing: 0.3px;">
-              <strong style="color: var(--Gray-900, #111827);
-font-family: Nunito;
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: 30px; /* 150% */
-letter-spacing: 0.3px;" >Relevan dengan Zaman:</strong> Selalu adaptif dengan
-              kebutuhan dan tren dunia kerja.
-            </li>
-            <li style="color: var(--Gray-500, #6D7280);
-font-family: Nunito;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 26px; /* 162.5% */
-letter-spacing: 0.3px;">
-              <strong style="color: var(--Gray-900, #111827);
-font-family: Nunito;
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: 30px; /* 150% */
-letter-spacing: 0.3px;" >Terbuka dan Tulus:</strong> Mendorong kolaborasi dan
-              keterbukaan dalam semua aspek.
-            </li>
-          </ul>
-        </div>
-        <div class="content-image">
-          <img src="images/nilai.png" alt="Nilai Image" />
+      <div id="nilai" class="tab-content">
+        <div class="content-wrapper">
+          <div class="text-section">
+            <h2>Apa sih Nilai yang Kami persembahkan?</h2>
+            <ul>
+              <li>
+                <img src="images/nilai1.svg" alt="Ikon Nilai 1" />
+                <div>
+                  <strong>Berani Memulai</strong>
+                  <p>
+                    Kami mendukung setiap langkah awal yang kamu ambil. Tidak
+                    ada kata terlambat untuk memulai perjalanan baru dalam
+                    pengembangan diri.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <img src="images/nilai2.svg" alt="Ikon Nilai 2" />
+                <div>
+                  <strong>Relevan dengan Zaman</strong>
+                  <p>
+                    Dunia terus berubah, dan begitu juga dengan kebutuhan skill.
+                    Kami berkomitmen untuk memastikan materi pembelajaran kami
+                    selalu relevan dengan tren industri saat ini.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <img src="images/nilai3.svg" alt="Ikon Nilai 3" />
+                <div>
+                  <strong>Terbaru dan Terkurasi</strong>
+                  <p>
+                    Semua konten kami dirancang oleh para profesional dengan
+                    standar tinggi untuk memastikan kamu hanya mendapatkan
+                    informasi yang paling bermanfaat.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="image-section">
+            <img src="images/nilai.png" alt="Nilai Image" />
+          </div>
         </div>
       </div>
     </div>
+    <script src="script.js"></script>
 
-    <script>
-      function showContent(section) {
-        // Sembunyikan semua konten
-        const contents = document.querySelectorAll(".content");
-        contents.forEach((content) => content.classList.remove("active"));
-
-        // Reset semua tombol
-        const buttons = document.querySelectorAll(".tabs button");
-        buttons.forEach((button) => button.classList.remove("active"));
-
-        // Tampilkan konten yang dipilih dan aktifkan tombol
-        document.getElementById(section).classList.add("active");
-        event.target.classList.add("active");
-      }
-    </script>
 
     <!-- Section 5 -->
      <div class="section-5-container">
@@ -789,7 +758,7 @@ letter-spacing: 0.3px;" >Terbuka dan Tulus:</strong> Mendorong kolaborasi dan
   </div>
 
 <!-- section 8 -->
-<section style="background-image: url('images/image2.png'); background-size auto: cover; background-position : center; background-repeat: no-repeat;">
+<section style="background-image: url('images/image2.png'); background-size auto: cover; background-position : center; background-repeat: no-repeat; ">
   <div class="main-container">
     <div style="display: flex; flex-direction: row; overflow-x: hidden; padding-top: 40px; padding-left:60px; padding-bottom: 40px;">
       <div class="text-container">

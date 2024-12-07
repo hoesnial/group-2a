@@ -1,135 +1,139 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 /* Kontainer utama */
 kolaborasi-container {
-    font-family: 'Poppins', sans-serif;
-    /* background-color: #f9f9f9; */
-    color: #333;
-    line-height: 1.6;
-    margin-bottom: 50px;
-    padding: 0;
-    position: relative;
+  font-family: "Poppins", sans-serif;
+  /* background-color: #f9f9f9; */
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 50px;
+  padding: 0;
+  position: relative;
 }
 
 /* Header */
 .kolaborasi-header {
-  font-family: 'Poppins', sans-serif;
-    position: relative;
-    display: inline;
-    margin: 0 auto;
-    max-width: 800px;
-    text-align: center;
-    padding: 50px 20px;
-    /* background-color: #fff; */
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  display: inline;
+  margin: 0 auto;
+  max-width: 800px;
+  text-align: center;
+  padding: 50px 20px;
+  /* background-color: #fff; */
 }
 
 .kolaborasi-header h1 {
-    font-size: 24px;
-    color: #000000;
-    margin-bottom: 10px;
+  font-size: 24px;
+  color: #000000;
+  margin-bottom: 10px;
 }
 
 .kolaborasi-header h2 {
-    margin: 22px 200px;
-    font-size: 64px;
-    color: #00CC99;
-    margin-bottom: 20px;
-    text-align: center;
-    line-height: 1;
+  margin: 22px 200px;
+  font-size: 64px;
+  color: #00cc99;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 1;
 }
 
 .kolaborasi-header p {
-    font-size: 14px;
-    color: #666;
-    max-width: 800px;
-    margin: 0 auto;
+  font-size: 14px;
+  color: #666;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 /* Section Cards */
 .kolaborasi-cards {
-    font-family: 'Poppins', sans-serif;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    padding: 0px 100px;
-    background-color: #fff;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 0px 100px;
+  background-color: #fff;
 }
 
 .kolaborasi-card {
-    position: relative;
-    border-radius: 10px;
-    overflow: hidden;
-    text-align: left; /* Pastikan teks rata kiri */
-    flex: 1;
-    min-width: 180px;
-    max-width: 450px;
-    height: 300px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: flex-grow 0.3s ease, transform 0.3s ease;
-    color: white;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: left; /* Pastikan teks rata kiri */
+  flex: 1;
+  min-width: 180px;
+  max-width: 450px;
+  height: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: flex-grow 0.3s ease, transform 0.3s ease;
+  color: white;
 }
 
 .kolaborasi-card:hover {
-    flex-grow: 2;
-    transform: scale(1.05);
+  flex-grow: 2;
+  transform: scale(1.05);
 }
 
 .kolaborasi-card img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 
 .kolaborasi-card::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to right, rgba(31, 248, 176, 0.7), rgba(0, 0, 0, 0));
-    z-index: 2;
-    opacity: 0.3;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    rgba(31, 248, 176, 0.7),
+    rgba(0, 0, 0, 0)
+  );
+  z-index: 2;
+  opacity: 0.3;
 }
 
 .kolaborasi-card h3 {
-    position: absolute;
-    bottom: 60px; /* Tetap di atas deskripsi */
-    left: 20px; /* Rata kiri */
-    font-size: 24px;
-    z-index: 3;
-    font-weight: bold;
-    color: white;
-    line-height: 1.2;
-    margin: 0; /* Pastikan tidak ada margin tambahan */
+  position: absolute;
+  bottom: 60px; /* Tetap di atas deskripsi */
+  left: 20px; /* Rata kiri */
+  font-size: 24px;
+  z-index: 3;
+  font-weight: bold;
+  color: white;
+  line-height: 1.2;
+  margin: 0; /* Pastikan tidak ada margin tambahan */
 }
 
 .kolaborasi-card p {
-    position: absolute;
-    bottom: 20px; /* Di bawah judul */
-    left: 20px; /* Rata kiri */
-    font-size: 14px;
-    line-height: 1.4;
-    z-index: 3;
-    color: white;
-    opacity: 0; /* Sembunyikan secara default */
-    transform: translateY(10px); /* Beri sedikit pergeseran ke bawah */
-    transition: opacity 0.3s ease, transform 0.3s ease; /* Animasi transisi */
+  position: absolute;
+  bottom: 20px; /* Di bawah judul */
+  left: 20px; /* Rata kiri */
+  font-size: 14px;
+  line-height: 1.4;
+  z-index: 3;
+  color: white;
+  opacity: 0; /* Sembunyikan secara default */
+  transform: translateY(10px); /* Beri sedikit pergeseran ke bawah */
+  transition: opacity 0.3s ease, transform 0.3s ease; /* Animasi transisi */
 }
 
 .kolaborasi-card:hover p {
-    opacity: 1; /* Tampilkan saat di-hover */
-    transform: translateY(0); /* Kembalikan ke posisi semula */
+  opacity: 1; /* Tampilkan saat di-hover */
+  transform: translateY(0); /* Kembalikan ke posisi semula */
 }
 
 /* Tambahan opsional untuk elemen lainnya yang tidak di-hover */
 .kolaborasi-cards > .kolaborasi-card:not(:hover) {
-    flex-grow: 1;
-    transform: scale(1);
+  flex-grow: 1;
+  transform: scale(1);
 }
 
 .collaboration {
@@ -354,25 +358,248 @@ kolaborasi-container {
 }
 
 .pattern-1-icon {
-    width: 100%;
-    position: absolute;
-    margin: 0 !important;
-    top: 130px;
-    left: 920px;
-    max-width: 9%;
-    overflow: hidden;
-    height: 100px;
-    flex-shrink: 0;
-    }
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 130px;
+  left: 920px;
+  max-width: 9%;
+  overflow: hidden;
+  height: 100px;
+  flex-shrink: 0;
+}
 
 .pattern-2-icon {
-    width: 100%;
-    position: absolute;
-    margin: 0 !important;
-    top: 239px;
-    right: 915px;
-    max-width: 5%;
-    overflow: hidden;
-    height: 60px;
-    flex-shrink: 0;
-    }
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 239px;
+  right: 915px;
+  max-width: 5%;
+  overflow: hidden;
+  height: 60px;
+  flex-shrink: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.header h1 {
+  color: #00c896;
+  font-size: 2.5em;
+  margin: 0;
+}
+.header p {
+  color: #666;
+  font-size: 1.1em;
+  margin: 10px 0 0;
+}
+.testimonial-section {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #fff;
+}
+
+.section-title {
+  color: var(--green-500, #00cc99);
+  text-align: center;
+  font-family: "Nunito-Bold", sans-serif;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 0.3px;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+}
+
+.section-description {
+  color: var(--gray-600, #4b5563);
+  text-align: center;
+  font-family: "Nunito-Medium", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.3px;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.testimonial-card {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.profile-pic {
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  position: relative;
+  object-fit: cover;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0 5px;
+}
+
+.position {
+  font-size: 14px;
+  color: #00cc99;
+  margin-bottom: 15px;
+}
+
+.social-icons i {
+  margin: 0 5px;
+  font-size: 16px;
+  color: #555;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.social-icons i.fa-linkedin:hover {
+  color: #0a66c2; /* Warna biru khusus untuk ikon Linkedin */
+}
+.social-icons i.fa-twitter:hover {
+  color: #30bdff; /* Warna biru khusus untuk twitter */
+}
+
+.social-icons i.fa-instagram:hover {
+  color: #c13584; /* Warna merah khusus untuk ikon YouTube */
+}
+
+.social-icons i.fa-youtube:hover {
+  color: #ff0000; /* Warna merah khusus untuk ikon YouTube */
+}
+
+.testimonial-text {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+  margin-top: 15px;
+}
+
+/* Pagination Styling */
+.pagination {
+  display: flex;
+  flex-direction: row;
+  gap: 21px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.indicator {
+  background: var(--green-500, #00cc99);
+  border-radius: 12px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 42px;
+  height: 42px;
+  position: relative;
+}
+._1 {
+  color: var(--white-100, #ffffff);
+  text-align: center;
+  font-family: "Nunito-Bold", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.003em;
+  font-weight: 700;
+  position: relative;
+}
+.indicator2 {
+  border-radius: 12px;
+  border-style: solid;
+  border-color: var(--gray-200, #e5e7eb);
+  border-width: 1px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 42px;
+  height: 42px;
+  position: relative;
+}
+._2 {
+  color: var(--gray-400, #9ca3af);
+  text-align: center;
+  font-family: "Nunito-Bold", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.003em;
+  font-weight: 700;
+  position: relative;
+}
+._3 {
+  color: var(--gray-400, #9ca3af);
+  text-align: center;
+  font-family: "Nunito-Bold", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.003em;
+  font-weight: 700;
+  position: relative;
+}
+.gray-button2 {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: var(--gray-200, #e5e7eb);
+  border-width: 1px;
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.dots {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.chevron-right {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}

@@ -289,6 +289,95 @@ flex-start;
         </div>
     </div>
 
+    <div class="container">
+      <div class="header">
+        <h1>Cerita dari Peserta Kami</h1>
+        <p>
+          Setiap perjalanan belajar adalah cerita yang unik. Luarsekolah, kami
+          bangga telah membantu banyak individu mengubah hidup mereka melalui
+          pendidikan yang relevan dan praktis.
+        </p>
+      </div>
+      <div class="testimonials">
+        <!-- Testimonial Eka -->
+        <div class="testimonial-card">
+          <img
+            src="images/ellipse-51.png"
+            alt="Eka Rosalia Fitria"
+            class="profile-pic"
+          />
+          <h3 class="name">Dina Safitri</h3>
+          <p class="position">Digital Marketing</p>
+          <div class="social-icons">
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+          <p class="testimonial-text">
+            “Kegiatan ini bener bener bermanfaat banget sih, bukan cuman buat
+            aku tapi juga buat anak anak yang ada di panti asuhan, aku jadi
+            punya pengalaman seru dan belajar betapa pentingnya berbagi sesama,
+            semoga program ini terus berjalan.”
+          </p>
+        </div>
+        <!-- Testimonial Alif -->
+        <div class="testimonial-card">
+          <img
+            src="images/ellipse-50.png"
+            alt="Alif Revinsa Arafi"
+            class="profile-pic"
+          />
+          <h3 class="name">Akhdan</h3>
+          <p class="position">UI/UX Design</p>
+          <div class="social-icons">
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+          <p class="testimonial-text">
+            “Webinarnya menarik, banyak ilmu baru yang aku dapetin, terutama
+            buat mahasiswa yang belum punya gambaran untuk kedepannya. webinar
+            ini sangat inspiratif dan ngasih aku langkah langkah yang bisa aku
+            ambil setelah lulus nanti.”
+          </p>
+        </div>
+        <!-- Testimonial Faris -->
+        <div class="testimonial-card">
+          <img src="images/ellipse-52.png" alt="Faris Ramadhan" class="profile-pic" />
+          <h3 class="name">Haikal Gibran</h3>
+          <p class="position">Web Development</p>
+          <div class="social-icons">
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+          <p class="testimonial-text">
+            “Berkat pelatihan ini aku jadi punya keterampilan baru yang bisa
+            berguna buat diri aku dan masyarakat, aku juga bisa punya
+            penghasilan tambahan serta kompetensi kerja yang bikin aku jadi
+            lebih percaya diri dalam mengadapai tantangan kedepannya.”
+          </p>
+        </div>
+        <div class="pagination">
+          <div class="indicator">
+            <div class="_1">1</div>
+          </div>
+          <div class="indicator2">
+            <div class="_2">2</div>
+          </div>
+          <div class="indicator2">
+            <div class="_3">3</div>
+          </div>
+          <div class="gray-button2">
+            <img class="dots" src="images/dots0.svg" />
+          </div>
+          <div class="gray-button2">
+            <img class="chevron-right" src="images/chevron-right0.svg" />
+          </div>
+        </div>
 
 <?php include('footer.php'); ?>
 
@@ -381,5 +470,7 @@ function smoothScrollTo(container, targetScrollLeft) {
 
     </script>
     </div>
+
+
 </body>
 </html>
