@@ -12,6 +12,7 @@ kolaborasi-container {
 
 /* Header */
 .kolaborasi-header {
+  font-family: 'Nunito', sans-serif;
     position: relative;
     display: inline;
     margin: 0 auto;
@@ -45,6 +46,7 @@ kolaborasi-container {
 
 /* Section Cards */
 .kolaborasi-cards {
+    font-family: 'Nunito', sans-serif;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -355,7 +357,7 @@ kolaborasi-container {
     width: 100%;
     position: absolute;
     margin: 0 !important;
-    top: 140px;
+    top: 130px;
     left: 920px;
     max-width: 9%;
     overflow: hidden;
@@ -367,8 +369,8 @@ kolaborasi-container {
     width: 100%;
     position: absolute;
     margin: 0 !important;
-    top: 249px;
-    right: 910px;
+    top: 239px;
+    right: 915px;
     max-width: 5%;
     overflow: hidden;
     height: 60px;
