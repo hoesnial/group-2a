@@ -1,5 +1,135 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 /* Kontainer utama */
+kolaborasi-container {
+    font-family: 'Nunito', sans-serif;
+    /* background-color: #f9f9f9; */
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 50px;
+    padding: 0;
+    position: relative;
+}
+
+/* Header */
+.kolaborasi-header {
+    position: relative;
+    display: inline;
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
+    padding: 50px 20px;
+    /* background-color: #fff; */
+}
+
+.kolaborasi-header h1 {
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.kolaborasi-header h2 {
+    margin: 22px 200px;
+    font-size: 64px;
+    color: #00CC99;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 1;
+}
+
+.kolaborasi-header p {
+    font-size: 14px;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Section Cards */
+.kolaborasi-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 0px 100px;
+    background-color: #fff;
+}
+
+.kolaborasi-card {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: left; /* Pastikan teks rata kiri */
+    flex: 1;
+    min-width: 180px;
+    max-width: 450px;
+    height: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: flex-grow 0.3s ease, transform 0.3s ease;
+    color: white;
+}
+
+.kolaborasi-card:hover {
+    flex-grow: 2;
+    transform: scale(1.05);
+}
+
+.kolaborasi-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.kolaborasi-card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(31, 248, 176, 0.7), rgba(0, 0, 0, 0));
+    z-index: 2;
+    opacity: 0.3;
+}
+
+.kolaborasi-card h3 {
+    position: absolute;
+    bottom: 60px; /* Tetap di atas deskripsi */
+    left: 20px; /* Rata kiri */
+    font-size: 24px;
+    z-index: 3;
+    font-weight: bold;
+    color: white;
+    line-height: 1.2;
+    margin: 0; /* Pastikan tidak ada margin tambahan */
+}
+
+.kolaborasi-card p {
+    position: absolute;
+    bottom: 20px; /* Di bawah judul */
+    left: 20px; /* Rata kiri */
+    font-size: 14px;
+    line-height: 1.4;
+    z-index: 3;
+    color: white;
+    opacity: 0; /* Sembunyikan secara default */
+    transform: translateY(10px); /* Beri sedikit pergeseran ke bawah */
+    transition: opacity 0.3s ease, transform 0.3s ease; /* Animasi transisi */
+}
+
+.kolaborasi-card:hover p {
+    opacity: 1; /* Tampilkan saat di-hover */
+    transform: translateY(0); /* Kembalikan ke posisi semula */
+}
+
+/* Tambahan opsional untuk elemen lainnya yang tidak di-hover */
+.kolaborasi-cards > .kolaborasi-card:not(:hover) {
+    flex-grow: 1;
+    transform: scale(1);
+}
+
 .collaboration {
   text-align: center;
   padding: 40px 20px;
