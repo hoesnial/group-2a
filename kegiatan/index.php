@@ -161,10 +161,11 @@ align-items: flex-start;
   <!-- Untuk section lainnya -->
 
   <section class="collaboration">
-    <h2 class="title">Kegiatan Kolaborasi</h2>
+    <h2 class="title">Pelatihan Prakerja</h2>
     <p class="subtitle">
-      Kegiatan kolaborasi bertujuan mendorong kerja sama untuk menciptakan dampak positif bagi<br>
-      komunitas dan masyarakat secara luas, dengan semangat solidaritas dan kepedulian.
+    Pelatihan Prakerja adalah pelatihan yang bertujuan 
+    untuk meningkatkan kompetensi kerja dan kewirausahaan, 
+    Program ini ditujukan untuk pencari kerja, atau pekerja yang terkena PHK
     </p>
     <div class="collaboration-cards">
       <!-- Card 3 -->
