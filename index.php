@@ -1072,7 +1072,7 @@ letter-spacing: 0.3px;" >Terbuka dan Tulus:</strong> Mendorong kolaborasi dan
     <div class="faq-left">
       <h2>Frequently Asked Questions</h2>
       <p>Belajar dengan pendekatan praktis dan terarah. Kembangkan portofolio dan siapkan diri untuk sukses dalam karier digital!</p>
-      <button class="btn-primary">Lihat Selengkapnya</button>
+      <button class="btn-primary" style="">Lihat Selengkapnya</button>
     </div>
     <div class="faq-right">
         <div class="faq-item"> 
