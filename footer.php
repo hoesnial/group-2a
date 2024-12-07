@@ -21,6 +21,7 @@
     }
 
     .footer-logo {
+        margin-bottom: 350px;
         flex: 1;
         display: flex;
         flex-direction: column;
@@ -28,11 +29,12 @@
         padding-right: 40px;
     }
 
-    .footer-logo img {
-        max-width: 150px; 
-    }
+    .logo-img {
+    max-width: 150px;
+}
 
     .footer-logo .textfooter {
+        margin-top: 20px;
         line-height: 1.5; 
     }
 
@@ -79,14 +81,14 @@
         text-decoration: underline;
     }
 
-    .footer-playstore {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex: 1;
-    }
+    .playstore-img {
+    margin-bottom: 450px;
+    max-width: 150px;
+    cursor: pointer;
+}
 
     .footer-playstore img {
+        margin-bottom: 450px;
         max-width: 150px;
         cursor: pointer; 
     }
@@ -95,7 +97,7 @@
 <footer>
     <div class="footer-container">
         <div class="footer-logo">
-            <img src="images/logo.png" alt="Logo"> 
+            <img class="logo-img" src="images/logo.png" alt="Logo"> 
             <p class="textfooter">Luarsekolah merupakan wadah belajar <br>dan mengajar pelajaran non-formal/
                 <br>alternatif dengan cara menyediakan <br> kelas pengajaran dalam bentuk online<br> dan offline</p>
         </div>
@@ -132,7 +134,7 @@
 
         <div class="footer-playstore">
             <a href="https://play.google.com/store/apps/details?id=com.luarsekolah.mobile" target="_blank">
-                <img src="images/googleplay.png" alt="Google Play">
+                <img class="playstore-img" src="images/googleplay.png" alt="Google Play">
             </a>
         </div>
 
