@@ -240,6 +240,7 @@ margin-right: 10px;
             <div class="dropdown">
                 <span class="dropdown-trigger">Program <i class="fas fa-chevron-down"></i></span>
                 <div class="dropdown-menu">
+                    <a href="kegiatan/index.php">Kegiatan</a>
                     <a href="https://magang.luarsekolah.com/">Magang+</a>
                     <a href="https://www.luarsekolah.com/prakerja">Prakerja</a>
                     <a href="https://belajarbekerja.com/">Belajar Berkerja</a>
